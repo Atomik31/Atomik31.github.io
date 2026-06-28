@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "siteTitle": {
+      "fr": "Julien Charlier — Architecte Data & IA",
+      "en": "Julien Charlier — Data & AI Architect"
+    }
+  },
+  "profile": {
+    "name": "Julien Charlier",
+    "title": {
+      "fr": "Architecte Data / IA · Spécialiste IoT (LoRaWAN) & Modélisation Prédictive · Double compétence OT-IT",
+      "en": "Data / AI Architect · IoT (LoRaWAN) & Predictive Modeling Specialist · OT-IT Dual Expertise"
+    },
+    "tagline": {
+      "fr": "Je relie le terrain industriel à l'intelligence artificielle, de la donnée capteur terrain au déploiement en production de modelès prédictifs.",
+      "en": "I bridge industrial operations and artificial intelligence — from field sensor data to the production deployment of predictive models."
+    },
+    "photo": "assets/images/photo-pro.jpg",
+    "cv": "assets/pdf/cv.pdf",
+    "email": "julien.charlier31@gmail.com",
+    "github": "https://github.com/Atomik31",
+    "linkedin": "https://www.linkedin.com/in/julien-charlier-3a41b779/"
+  },
+  "about": {
+    "fr": "Architecte Data / IA, je conçois des solutions d'intelligence artificielle ancrées dans l'IoT et le monde industriel. Façonné par plus de 14 ans de terrain, chef d'entreprise dans les ascenseurs inclinés, l'automatisme, la domotique et l'IoT, expert support technique puis technicien support SAV expert Toyota, j'ai acquis une compréhension fine des systèmes physiques, de leurs capteurs et de leurs contraintes réelles. J'ai déjà fait le pont entre le terrain et l'IA en concevant un chatbot de recherche de panne. Ma valeur : une double compétence OT/IT qui me permet de transformer la donnée capteur (ESP32, LoRaWAN) en modèles prédictifs concrets, du edge jusqu'au cloud. Je prépare la certification AWS Solutions Architect.",
+    "en": "A Data / AI Architect, I design artificial intelligence solutions rooted in IoT and the industrial world. Shaped by more than 14 years in the field, company director in inclined elevators, automation, home automation and IoT, technical support expert, then Toyota expert SAV support technician, I have gained a deep understanding of physical systems, their sensors, and their real-world constraints. I have already bridged the field and AI by designing a fault-diagnosis chatbot. My edge: an OT/IT dual expertise that lets me turn sensor data (ESP32, LoRaWAN) into concrete predictive models, from the edge to the cloud. I'm preparing the AWS Solutions Architect certification."
+  },
+  "experience": [
+    {
+      "id": "actemis",
+      "role": { "fr": "Technicien support SAV — Expert Toyota", "en": "SAV Support Technician — Toyota Expert" },
+      "company": "Actemis",
+      "location": { "fr": "Vitrolles (13)", "en": "Vitrolles, France" },
+      "period": { "fr": "Mars 2022 – Juillet 2026", "en": "Mar 2022 – Jul 2026" },
+      "description": {
+        "fr": "Optimisation des process de dépannage et création d'un chatbot de recherche de panne. Gestion à distance des pannes, formation technique interne et client, relation commerciale.",
+        "en": "Optimization of troubleshooting processes and creation of a fault-diagnosis chatbot. Remote fault management, internal and customer technical training, and commercial relations."
+      },
+      "stack": ["Chatbot", "Diagnostic", "Support technique"]
+    },
+    {
+      "id": "toyota-mh",
+      "role": { "fr": "Technicien support client SAV", "en": "Customer SAV Support Technician" },
+      "company": "Toyota Material Handling",
+      "location": { "fr": "Haute-Savoie (74)", "en": "Haute-Savoie, France" },
+      "period": { "fr": "Octobre 2019 – Mars 2022", "en": "Oct 2019 – Mar 2022" },
+      "description": {
+        "fr": "Gestion d'un parc de chariots élévateurs : maintenance, devis, facturation et relation client. Participation aux challenges de vente.",
+        "en": "Management of a forklift fleet: maintenance, quotes, invoicing, and customer relations. Participation in sales challenges."
+      },
+      "stack": []
+    },
+    {
+      "id": "techni-steel",
+      "role": { "fr": "Expert support technique — Ascenseur incliné & automatisme", "en": "Technical Support Expert — Inclined Elevators & Automation" },
+      "company": "Techni-steel",
+      "location": { "fr": "Nice (06)", "en": "Nice, France" },
+      "period": { "fr": "Février 2019 – Septembre 2019", "en": "Feb 2019 – Sep 2019" },
+      "description": {
+        "fr": "Étude et réalisation de projets d'ascenseur incliné, mise en place de solutions techniques et collaboration avec le bureau R&D.",
+        "en": "Design and delivery of inclined elevator projects, implementation of technical solutions, and collaboration with the R&D office."
+      },
+      "stack": ["Automatisme", "R&D"]
+    },
+    {
+      "id": "azurea",
+      "role": { "fr": "Chef d'entreprise", "en": "Company Director" },
+      "company": "Azurea Group",
+      "location": { "fr": "Biot (06)", "en": "Biot, France" },
+      "period": { "fr": "Novembre 2015 – Janvier 2018", "en": "Nov 2015 – Jan 2018" },
+      "description": {
+        "fr": "Gestion de projets d'ascenseur incliné en France et à l'étranger, expertise technique, domotique, IoT et automatismes.",
+        "en": "Management of inclined elevator projects in France and abroad, technical expertise, home automation, IoT, and automation systems."
+      },
+      "stack": ["Domotique", "IoT", "Automatismes"]
+    }
+  ],
+  "education": [
+    {
+      "id": "jedha",
+      "degree": {
+        "fr": "Data Science & Engineering | Architecte en IA",
+        "en": "Data Science & Engineering | AI Architect"
+      },
+      "school": "Jedha",
+      "location": { "fr": "Paris (75)", "en": "Paris, France" },
+      "period": { "fr": "Juillet 2025 – Juin 2026", "en": "Jul 2025 – Jun 2026" },
+      "description": {
+        "fr": "Certification RNCP 38777 (niveau 7) — Architecte en IA, et RNCP 35288 (niveau 6) — Concepteur développeur en science des données. Machine learning, deep learning, pipelines MLOps, orchestration et déploiement cloud.",
+        "en": "RNCP 38777 (level 7) — AI Architect, and RNCP 35288 (level 6) — Data Science Developer certifications. Machine learning, deep learning, MLOps pipelines, orchestration, and cloud deployment."
+      },
+      "stack": ["Python", "Machine Learning", "Deep Learning", "MLOps", "Kubernetes", "AWS"]
+    },
+    {
+      "id": "aws-saa",
+      "degree": {
+        "fr": "AWS Certified Solutions Architect — Associate",
+        "en": "AWS Certified Solutions Architect — Associate"
+      },
+      "school": "Amazon Web Services",
+      "location": { "fr": "En ligne", "en": "Online" },
+      "period": { "fr": "Juillet 2026 (visée)", "en": "Jul 2026 (targeted)" },
+      "description": {
+        "fr": "Certification AWS SAA-C03 — conception d'architectures cloud résilientes, sécurisées et optimisées.",
+        "en": "AWS SAA-C03 certification — designing resilient, secure, and cost-optimized cloud architectures."
+      },
+      "stack": ["AWS", "Cloud Architecture"]
+    },
+    {
+      "id": "bac-pro",
+      "degree": {
+        "fr": "Bac Professionnel Électrotechnique — Mention Bien",
+        "en": "Vocational Baccalauréat in Electrical Engineering — With Honors"
+      },
+      "school": "Lycée Jacques Dolle",
+      "location": { "fr": "Antibes (06)", "en": "Antibes, France" },
+      "period": { "fr": "2010 – 2012", "en": "2010 – 2012" },
+      "description": {
+        "fr": "Formation en électrotechnique : installation et gestion de systèmes électriques. Précédé du BEP Électrotechnique (2008 – 2010) au même lycée.",
+        "en": "Electrical engineering training: installation and management of electrical systems. Preceded by the BEP in Electrical Engineering (2008 – 2010) at the same school."
+      },
+      "stack": []
+    }
+  ],
+  "skills": [
+    {
+      "category": { "fr": "Programmation & Data", "en": "Programming & Data" },
+      "items": ["Python", "Pandas", "NumPy", "Matplotlib", "Plotly", "SQL", "Bash"]
+    },
+    {
+      "category": { "fr": "Machine Learning & Deep Learning", "en": "Machine Learning & Deep Learning" },
+      "items": ["scikit-learn", "TensorFlow", "YOLO (Ultralytics)", "OpenCV"]
+    },
+    {
+      "category": { "fr": "MLOps & Orchestration", "en": "MLOps & Orchestration" },
+      "items": ["Git / GitHub", "Docker", "MLflow", "Airflow", "Kubernetes", "Ray / KubeRay", "Evidently", "Great Expectations"]
+    },
+    {
+      "category": { "fr": "Cloud", "en": "Cloud" },
+      "items": ["AWS (S3, EC2)", "AWS SAA (en cours)", "GCP", "Hugging Face Spaces"]
+    },
+    {
+      "category": { "fr": "IoT & Embarqué", "en": "IoT & Embedded" },
+      "items": ["ESP32", "LoRa / LoRaWAN", "RTSP", "Capteurs"]
+    },
+    {
+      "category": { "fr": "Serving & Dataviz", "en": "Serving & Dataviz" },
+      "items": ["FastAPI", "Streamlit"]
+    },
+    {
+      "category": { "fr": "Langues", "en": "Languages" },
+      "items": ["Français (natif)", "Anglais (B2)"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "maintenance-eoliennes",
+      "featured": true,
+      "title": {
+        "fr": "Maintenance prédictive d'éoliennes — Pipeline MLOps",
+        "en": "Wind Turbine Predictive Maintenance — MLOps Pipeline"
+      },
+      "summary": {
+        "fr": "Solution MLOps de bout en bout pour anticiper les pannes de turbines : capteurs (rotor, température, vibrations), modèle Random Forest entraîné de façon distribuée sur Kubernetes, API de serving FastAPI, orchestration Airflow avec monitoring du drift et dashboard Streamlit.",
+        "en": "End-to-end MLOps solution to anticipate turbine failures: sensor data (rotor, temperature, vibration), distributed Random Forest training on Kubernetes, FastAPI serving API, Airflow orchestration with drift monitoring, and a Streamlit dashboard."
+      },
+      "stack": ["Python", "scikit-learn", "Ray / KubeRay", "Kubernetes", "Airflow", "MLflow", "Evidently", "FastAPI", "Streamlit", "AWS S3"],
+      "repo_url": "https://github.com/Atomik31/projet-final-dsl-ft-37",
+      "demo_url": null,
+      "image": null,
+      "context": {
+        "fr": "Projet de certification Lead chez Jedha. C'est là que ma double compétence OT/IT prend tout son sens : relier des capteurs industriels à un pipeline ML complet, de l'entraînement distribué jusqu'à l'inférence batch automatisée.",
+        "en": "Lead certification project at Jedha. This is where my OT/IT dual expertise truly comes into play: connecting industrial sensors to a complete ML pipeline, from distributed training to automated batch inference."
+      }
+    },
+    {
+      "id": "fraud-detection",
+      "featured": true,
+      "title": {
+        "fr": "Détection automatique de fraude bancaire",
+        "en": "Automatic Bank Fraud Detection"
+      },
+      "summary": {
+        "fr": "Système de détection de transactions frauduleuses en temps réel : modèle de régression logistique entraîné sur ~555k transactions, pipeline scikit-learn (feature engineering, scaling, target encoding), orchestration par deux DAGs Airflow (horaire et quotidien) et alertes Slack instantanées.",
+        "en": "Real-time fraudulent transaction detection: logistic regression model trained on ~555k transactions, scikit-learn pipeline (feature engineering, scaling, target encoding), orchestration via two Airflow DAGs (hourly and daily), and instant Slack alerts."
+      },
+      "stack": ["Python", "scikit-learn", "Airflow", "MLflow", "Great Expectations", "PostgreSQL / Neon", "AWS S3", "Slack"],
+      "repo_url": "https://github.com/Atomik31/Automatic_fraud_detection",
+      "demo_url": null,
+      "image": null,
+      "context": {
+        "fr": "Projet de certification Lead. L'enjeu : gérer un dataset fortement déséquilibré (0,38 % de fraudes) tout en produisant des alertes fiables en continu et un bilan quotidien automatisé.",
+        "en": "Lead certification project. The challenge: handling a highly imbalanced dataset (0.38% fraud) while producing reliable continuous alerts and an automated daily report."
+      }
+    },
+    {
+      "id": "rtsp-yolo",
+      "featured": true,
+      "title": {
+        "fr": "Détection d'objets temps réel sur flux RTSP",
+        "en": "Real-Time Object Detection on RTSP Streams"
+      },
+      "summary": {
+        "fr": "POC de détection d'objets à latence quasi nulle sur les flux RTSP de caméras de vidéosurveillance (Dahua, Hikvision). Transport UDP sans tampon pour rester au présent, modèles YOLO configurables (Nano à Large) et traitement vidéo via PyAV / OpenCV.",
+        "en": "Near-zero-latency object detection POC on RTSP streams from surveillance cameras (Dahua, Hikvision). Bufferless UDP transport to stay in the present, configurable YOLO models (Nano to Large), and video processing via PyAV / OpenCV."
+      },
+      "stack": ["Python", "YOLO (Ultralytics)", "PyAV", "OpenCV", "RTSP"],
+      "repo_url": "https://github.com/Atomik31/POC-Real-Time-RTSP-Object-Detection",
+      "demo_url": null,
+      "image": null,
+      "context": {
+        "fr": "Projet personnel à la croisée de mon passé terrain (vidéosurveillance, courants faibles) et de la vision par ordinateur. J'ai dépassé le buffering standard d'OpenCV pour garantir un affichage réellement temps réel.",
+        "en": "A personal project at the crossroads of my field background (CCTV, low-voltage systems) and computer vision. I went beyond OpenCV's standard buffering to ensure a truly real-time display."
+      }
+    },
+    {
+      "id": "dashboard-parking",
+      "featured": true,
+      "title": {
+        "fr": "Dashboard parkings — Aix-en-Provence",
+        "en": "Parking Dashboard — Aix-en-Provence"
+      },
+      "summary": {
+        "fr": "Tableau de bord web affichant en temps réel la disponibilité des 9 parkings publics Semepa d'Aix-en-Provence : scraping automatisé, traitement Pandas en arrière-plan (threading) et interface Streamlit rafraîchie toutes les 30 minutes.",
+        "en": "Web dashboard showing real-time availability of Aix-en-Provence's 9 Semepa public car parks: automated scraping, background Pandas processing (threading), and a Streamlit interface refreshed every 30 minutes."
+      },
+      "stack": ["Python", "Streamlit", "Pandas", "Requests", "Threading"],
+      "repo_url": "https://github.com/Atomik31/Dashboard-parking",
+      "demo_url": null,
+      "image": null,
+      "context": {
+        "fr": "Projet utile né d'un besoin local concret. Un bon terrain pour pratiquer la collecte de données, la robustesse d'un service qui tourne en continu et la mise à disposition d'une interface simple et gratuite.",
+        "en": "A useful project born from a concrete local need. A good playground to practice data collection, the robustness of an always-on service, and delivering a simple, free interface."
+      }
+    },
+    {
+      "id": "local-airflow",
+      "featured": true,
+      "title": {
+        "fr": "Local Airflow Server — entraînement EC2 distant",
+        "en": "Local Airflow Server — Remote EC2 Training"
+      },
+      "summary": {
+        "fr": "Serveur Airflow local déclenchant automatiquement des entraînements de modèles sur une instance EC2 distante — orchestration MLOps de bout en bout.",
+        "en": "Local Airflow server automatically triggering model training on a remote EC2 instance — end-to-end MLOps orchestration."
+      },
+      "stack": ["Airflow", "AWS EC2", "Python", "MLOps"],
+      "repo_url": "https://github.com/Atomik31/local-airflow-server",
+      "demo_url": null,
+      "image": null,
+      "context": {
+        "fr": "Brique d'apprentissage de l'orchestration : séparer le plan de contrôle (Airflow local) du plan de calcul (EC2), un schéma que l'on retrouve dans toute architecture MLOps sérieuse.",
+        "en": "An orchestration learning building block: separating the control plane (local Airflow) from the compute plane (EC2) — a pattern found in any serious MLOps architecture."
+      }
+    },
+    {
+      "id": "getaround",
+      "featured": false,
+      "title": {
+        "fr": "Getaround — Analyse & API de pricing",
+        "en": "Getaround — Analysis & Pricing API"
+      },
+      "summary": {
+        "fr": "Projet de certification Fullstack : analyse de l'impact des retards de restitution et mise à disposition d'un modèle de prédiction de prix via une API.",
+        "en": "Fullstack certification project: analyzing the impact of late vehicle returns and exposing a price-prediction model through an API."
+      },
+      "stack": ["Python", "Pandas", "scikit-learn", "FastAPI", "Streamlit"],
+      "repo_url": "https://github.com/Atomik31/Getaround",
+      "demo_url": null,
+      "image": null,
+      "context": {
+        "fr": "Un cas concret de bout en bout : de l'analyse exploratoire jusqu'à la mise en production d'un modèle exploitable par une équipe produit.",
+        "en": "A concrete end-to-end case: from exploratory analysis to deploying a model usable by a product team."
+      }
+    }
+  ],
+  "nav": {
+    "about": { "fr": "À propos", "en": "About" },
+    "experience": { "fr": "Expérience", "en": "Experience" },
+    "education": { "fr": "Formation", "en": "Education" },
+    "skills": { "fr": "Compétences", "en": "Skills" },
+    "projects": { "fr": "Projets", "en": "Projects" },
+    "contact": { "fr": "Contact", "en": "Contact" }
+  },
+  "labels": {
+    "downloadCv": { "fr": "Télécharger le CV", "en": "Download CV" },
+    "viewGithub": { "fr": "Voir GitHub", "en": "View GitHub" },
+    "repo": { "fr": "Code source", "en": "Source code" },
+    "demo": { "fr": "Démo", "en": "Demo" },
+    "context": { "fr": "Mon regard", "en": "My take" },
+    "email": { "fr": "Email", "en": "Email" },
+    "linkedinProfile": { "fr": "Profil LinkedIn", "en": "LinkedIn profile" },
+    "rights": { "fr": "Tous droits réservés.", "en": "All rights reserved." }
+  }
+}

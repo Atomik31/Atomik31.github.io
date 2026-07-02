@@ -161,7 +161,7 @@
     },
     {
       "category": { "fr": "Cloud", "en": "Cloud" },
-      "items": ["AWS", "GCP", "Hugging Face Spaces"]
+      "items": ["AWS", "GCP", "Databricks", "Hugging Face Spaces"]
     },
     {
       "category": { "fr": "IoT & Embarqué", "en": "IoT & Embedded" },
@@ -199,7 +199,7 @@
     },
     {
       "id": "fraud-detection",
-      "featured": true,
+      "featured": false,
       "title": {
         "fr": "Détection automatique de fraude bancaire",
         "en": "Automatic Bank Fraud Detection"
@@ -219,7 +219,7 @@
     },
     {
       "id": "rtsp-yolo",
-      "featured": true,
+      "featured": false,
       "title": {
         "fr": "Détection d'objets temps réel sur flux RTSP",
         "en": "Real-Time Object Detection on RTSP Streams"
@@ -258,8 +258,48 @@
       }
     },
     {
-      "id": "local-airflow",
+      "id": "kayak-trip",
       "featured": true,
+      "title": {
+        "fr": "Kayak - Recommandation de destinations",
+        "en": "Kayak - Destination Recommendation"
+      },
+      "summary": {
+        "fr": "Croisement des prévisions météo à 7 jours de 35 villes françaises avec les meilleurs hôtels Booking (scraping), restitué sur carte interactive.",
+        "en": "Combining 7-day weather forecasts for 35 French cities with top-rated Booking hotels (scraping), rendered on an interactive map."
+      },
+      "stack": ["Python", "Scraping", "APIs", "Plotly", "AWS S3"],
+      "repo_url": "https://github.com/Atomik31/Kayak",
+      "demo_url": null,
+      "image": null,
+      "context": {
+        "fr": "Tout commence par la collecte : scraping, APIs, stockage cloud. Avant de modéliser quoi que ce soit, il faut savoir aller chercher une donnée propre et fiable à la source. C'est un réflexe que le terrain m'a appris bien avant la data science.",
+        "en": "Everything starts with collection: scraping, APIs, cloud storage. Before modeling anything, you need to fetch clean, reliable data at the source. A reflex the field taught me long before data science did."
+      }
+    },
+    {
+      "id": "spotify-governance",
+      "featured": true,
+      "title": {
+        "fr": "Spotify - Framework de gouvernance des données",
+        "en": "Spotify - Data Governance Framework"
+      },
+      "summary": {
+        "fr": "Conception d'un cadre de gouvernance : évaluation de maturité, politiques, rôles et responsabilités, conformité RGPD / CCPA / PCI-DSS et plan d'implémentation.",
+        "en": "Designing a governance framework: maturity assessment, policies, roles & responsibilities, GDPR / CCPA / PCI-DSS compliance, and an implementation plan."
+      },
+      "stack": ["Data Governance", "RGPD / CCPA", "PCI-DSS"],
+      "repo_url": "https://github.com/Atomik31/Spotify",
+      "demo_url": null,
+      "image": null,
+      "context": {
+        "fr": "Un projet 100 % architecture et gouvernance, sans une ligne de modèle : définir qui accède à quoi, sous quelles règles et avec quelles responsabilités. Ma culture du traitement de l'information sensible, acquise en Gendarmerie, y résonne directement.",
+        "en": "A project that is 100% architecture and governance, without a single line of modeling: defining who accesses what, under which rules and responsibilities. My experience handling sensitive information in the Gendarmerie resonates directly here."
+      }
+    },
+    {
+      "id": "local-airflow",
+      "featured": false,
       "title": {
         "fr": "Local Airflow Server - entraînement EC2 distant",
         "en": "Local Airflow Server - Remote EC2 Training"
@@ -315,7 +355,7 @@
     },
     {
       "id": "att-spam",
-      "featured": false,
+      "featured": true,
       "title": {
         "fr": "AT&T - Détecteur de spam SMS",
         "en": "AT&T - SMS Spam Detector"
@@ -327,7 +367,11 @@
       "stack": ["Python", "NLP", "TensorFlow", "Deep Learning"],
       "repo_url": "https://github.com/Atomik31/At-t",
       "demo_url": null,
-      "image": null
+      "image": null,
+      "context": {
+        "fr": "Ce projet illustre ma méthode : toujours partir d'une baseline simple avant d'empiler la complexité, et mesurer si chaque étage supplémentaire paie vraiment. En production, le bon modèle n'est pas le plus sophistiqué, c'est celui qui justifie son coût.",
+        "en": "This project illustrates my method: always start from a simple baseline before stacking complexity, and measure whether each added layer truly pays off. In production, the right model is not the most sophisticated one, it is the one that justifies its cost."
+      }
     },
     {
       "id": "north-face",
@@ -410,22 +454,6 @@
       "image": null
     },
     {
-      "id": "kayak-trip",
-      "featured": false,
-      "title": {
-        "fr": "Kayak - Recommandation de destinations",
-        "en": "Kayak - Destination Recommendation"
-      },
-      "summary": {
-        "fr": "Croisement des prévisions météo à 7 jours de 35 villes françaises avec les meilleurs hôtels Booking (scraping), restitué sur carte interactive.",
-        "en": "Combining 7-day weather forecasts for 35 French cities with top-rated Booking hotels (scraping), rendered on an interactive map."
-      },
-      "stack": ["Python", "Scraping", "APIs", "Plotly", "AWS S3"],
-      "repo_url": "https://github.com/Atomik31/Kayak",
-      "demo_url": null,
-      "image": null
-    },
-    {
       "id": "conversion-rate",
       "featured": false,
       "title": {
@@ -438,22 +466,6 @@
       },
       "stack": ["Python", "scikit-learn", "Feature engineering"],
       "repo_url": "https://github.com/Atomik31/Conversion_rate_challenge",
-      "demo_url": null,
-      "image": null
-    },
-    {
-      "id": "spotify-governance",
-      "featured": false,
-      "title": {
-        "fr": "Spotify - Framework de gouvernance des données",
-        "en": "Spotify - Data Governance Framework"
-      },
-      "summary": {
-        "fr": "Conception d'un cadre de gouvernance : évaluation de maturité, politiques, rôles et responsabilités, conformité RGPD / CCPA / PCI-DSS et plan d'implémentation.",
-        "en": "Designing a governance framework: maturity assessment, policies, roles & responsibilities, GDPR / CCPA / PCI-DSS compliance, and an implementation plan."
-      },
-      "stack": ["Data Governance", "RGPD / CCPA", "PCI-DSS"],
-      "repo_url": "https://github.com/Atomik31/Spotify",
       "demo_url": null,
       "image": null
     },

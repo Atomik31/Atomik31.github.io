@@ -36,7 +36,7 @@
         "fr": "Accompagnement des apprenants des bootcamps Data Science & IA : support technique sur les projets, aide au débogage et à la compréhension des concepts (Python, machine learning, MLOps).",
         "en": "Supporting Data Science & AI bootcamp students: technical guidance on projects, debugging help, and concept explanations (Python, machine learning, MLOps)."
       },
-      "stack": ["Python", "Machine Learning", "MLOps", "Pédagogie"]
+      "stack": ["Python", "SQL", "Linux/bash", "Machine Learning", "MLOps", "Pédagogie", "Cloud"]
     },
     {
       "id": "gendarme",
@@ -84,7 +84,7 @@
         "fr": "Gestion de projets d'ascenseur incliné, mise en place de solutions techniques et collaboration avec le bureau R&D, gestion des données du parc d'ascenseurs.",
         "en": "Management of inclined elevator projects, implementation of technical solutions, collaboration with the R&D office, and management of the elevator fleet data."
       },
-      "stack": ["Gestion de projet", "Automatisme", "R&D"]
+      "stack": ["Gestion de projet", "Automatisme", "R&D", "IoT"]
     },
     {
       "id": "azurea",
@@ -113,7 +113,7 @@
         "fr": "Certification RNCP 38777 Bac +5 - Architecte en IA, et RNCP 35288 Bac +3/4 - Concepteur développeur en science des données. Machine learning, deep learning, pipelines MLOps, orchestration et déploiement cloud.",
         "en": "RNCP 38777 (level 7, Master's degree equivalent) - AI Architect, and RNCP 35288 (level 6, Bachelor's degree equivalent) - Data Science Developer certifications. Machine learning, deep learning, MLOps pipelines, orchestration, and cloud deployment."
       },
-      "stack": ["Python", "Machine Learning", "Deep Learning", "MLOps", "Kubernetes", "AWS"]
+      "stack": ["Python", "SQL", "Git/GitHub", "Linux/bash","Machine Learning", "Deep Learning", "MLOps", "Cloud"]
     },
     {
       "id": "aws-saa",

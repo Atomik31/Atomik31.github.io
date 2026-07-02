@@ -1,8 +1,8 @@
 {
   "meta": {
     "siteTitle": {
-      "fr": "Julien Charlier — Architecte Data & IA",
-      "en": "Julien Charlier — Data & AI Architect"
+      "fr": "Julien Charlier - Architecte Data & IA",
+      "en": "Julien Charlier - Data & AI Architect"
     }
   },
   "profile": {
@@ -13,7 +13,7 @@
     },
     "tagline": {
       "fr": "Je relie le terrain industriel à l'intelligence artificielle, de la donnée capteur terrain au déploiement en production de modèles prédictifs.",
-      "en": "I bridge industrial operations and artificial intelligence — from field sensor data to the production deployment of predictive models."
+      "en": "I bridge industrial operations and artificial intelligence - from field sensor data to the production deployment of predictive models."
     },
     "photo": "assets/images/photo-pro.jpg",
     "cv": "assets/pdf/cv.pdf",
@@ -28,7 +28,7 @@
   "experience": [
     {
       "id": "jedha-ta",
-      "role": { "fr": "Teacher Assistant — Freelance", "en": "Teacher Assistant — Freelance" },
+      "role": { "fr": "Teacher Assistant - Freelance", "en": "Teacher Assistant - Freelance" },
       "company": "Jedha",
       "location": { "fr": "Paris / À distance", "en": "Paris / Remote" },
       "period": { "fr": "À partir d'août 2026", "en": "From Aug 2026" },
@@ -40,7 +40,7 @@
     },
     {
       "id": "actemis",
-      "role": { "fr": "Technicien support SAV — Expert Toyota", "en": "SAV Support Technician — Toyota Expert" },
+      "role": { "fr": "Technicien support SAV - Expert Toyota", "en": "SAV Support Technician - Toyota Expert" },
       "company": "Actemis",
       "location": { "fr": "Vitrolles (13)", "en": "Vitrolles, France" },
       "period": { "fr": "Mars 2022 – Juillet 2026", "en": "Mar 2022 – Jul 2026" },
@@ -64,7 +64,7 @@
     },
     {
       "id": "techni-steel",
-      "role": { "fr": "Expert support technique — Ascenseur incliné & automatisme", "en": "Technical Support Expert — Inclined Elevators & Automation" },
+      "role": { "fr": "Expert support technique - Ascenseur incliné & automatisme", "en": "Technical Support Expert - Inclined Elevators & Automation" },
       "company": "Techni-steel",
       "location": { "fr": "Nice (06)", "en": "Nice, France" },
       "period": { "fr": "Février 2019 – Septembre 2019", "en": "Feb 2019 – Sep 2019" },
@@ -98,31 +98,31 @@
       "location": { "fr": "Paris (75)", "en": "Paris, France" },
       "period": { "fr": "Juillet 2025 – Juin 2026", "en": "Jul 2025 – Jun 2026" },
       "description": {
-        "fr": "Certification RNCP 38777 (niveau 7) — Architecte en IA, et RNCP 35288 (niveau 6) — Concepteur développeur en science des données. Machine learning, deep learning, pipelines MLOps, orchestration et déploiement cloud.",
-        "en": "RNCP 38777 (level 7) — AI Architect, and RNCP 35288 (level 6) — Data Science Developer certifications. Machine learning, deep learning, MLOps pipelines, orchestration, and cloud deployment."
+        "fr": "Certification RNCP 38777 (niveau 7) - Architecte en IA, et RNCP 35288 (niveau 6) - Concepteur développeur en science des données. Machine learning, deep learning, pipelines MLOps, orchestration et déploiement cloud.",
+        "en": "RNCP 38777 (level 7) - AI Architect, and RNCP 35288 (level 6) - Data Science Developer certifications. Machine learning, deep learning, MLOps pipelines, orchestration, and cloud deployment."
       },
       "stack": ["Python", "Machine Learning", "Deep Learning", "MLOps", "Kubernetes", "AWS"]
     },
     {
       "id": "aws-saa",
       "degree": {
-        "fr": "AWS Certified Solutions Architect — Associate",
-        "en": "AWS Certified Solutions Architect — Associate"
+        "fr": "AWS Certified Solutions Architect - Associate",
+        "en": "AWS Certified Solutions Architect - Associate"
       },
       "school": "Amazon Web Services",
       "location": { "fr": "En ligne", "en": "Online" },
       "period": { "fr": "Juillet 2026 (visée)", "en": "Jul 2026 (targeted)" },
       "description": {
-        "fr": "Certification AWS SAA-C03 — conception d'architectures cloud résilientes, sécurisées et optimisées.",
-        "en": "AWS SAA-C03 certification — designing resilient, secure, and cost-optimized cloud architectures."
+        "fr": "Certification AWS SAA-C03 - conception d'architectures cloud résilientes, sécurisées et optimisées.",
+        "en": "AWS SAA-C03 certification - designing resilient, secure, and cost-optimized cloud architectures."
       },
       "stack": ["AWS", "Cloud Architecture"]
     },
     {
       "id": "bac-pro",
       "degree": {
-        "fr": "Bac Professionnel Électrotechnique — Mention Bien",
-        "en": "Vocational Baccalauréat in Electrical Engineering — With Honors"
+        "fr": "Bac Professionnel Électrotechnique - Mention Bien",
+        "en": "Vocational Baccalauréat in Electrical Engineering - With Honors"
       },
       "school": "Lycée Jacques Dolle",
       "location": { "fr": "Antibes (06)", "en": "Antibes, France" },
@@ -169,8 +169,8 @@
       "id": "maintenance-eoliennes",
       "featured": true,
       "title": {
-        "fr": "Maintenance prédictive d'éoliennes — Pipeline MLOps",
-        "en": "Wind Turbine Predictive Maintenance — MLOps Pipeline"
+        "fr": "Maintenance prédictive d'éoliennes - Pipeline MLOps",
+        "en": "Wind Turbine Predictive Maintenance - MLOps Pipeline"
       },
       "summary": {
         "fr": "Solution MLOps de bout en bout pour anticiper les pannes de turbines : capteurs (rotor, température, vibrations), modèle Random Forest entraîné de façon distribuée sur Kubernetes, API de serving FastAPI, orchestration Airflow avec monitoring du drift et dashboard Streamlit.",
@@ -229,8 +229,8 @@
       "id": "dashboard-parking",
       "featured": true,
       "title": {
-        "fr": "Dashboard parkings — Aix-en-Provence",
-        "en": "Parking Dashboard — Aix-en-Provence"
+        "fr": "Dashboard parkings - Aix-en-Provence",
+        "en": "Parking Dashboard - Aix-en-Provence"
       },
       "summary": {
         "fr": "Tableau de bord web affichant en temps réel la disponibilité des 9 parkings publics Semepa d'Aix-en-Provence : scraping automatisé, traitement Pandas en arrière-plan (threading) et interface Streamlit rafraîchie toutes les 30 minutes.",
@@ -249,12 +249,12 @@
       "id": "local-airflow",
       "featured": true,
       "title": {
-        "fr": "Local Airflow Server — entraînement EC2 distant",
-        "en": "Local Airflow Server — Remote EC2 Training"
+        "fr": "Local Airflow Server - entraînement EC2 distant",
+        "en": "Local Airflow Server - Remote EC2 Training"
       },
       "summary": {
-        "fr": "Serveur Airflow local déclenchant automatiquement des entraînements de modèles sur une instance EC2 distante — orchestration MLOps de bout en bout.",
-        "en": "Local Airflow server automatically triggering model training on a remote EC2 instance — end-to-end MLOps orchestration."
+        "fr": "Serveur Airflow local déclenchant automatiquement des entraînements de modèles sur une instance EC2 distante - orchestration MLOps de bout en bout.",
+        "en": "Local Airflow server automatically triggering model training on a remote EC2 instance - end-to-end MLOps orchestration."
       },
       "stack": ["Airflow", "AWS EC2", "Python", "MLOps"],
       "repo_url": "https://github.com/Atomik31/local-airflow-server",
@@ -262,15 +262,15 @@
       "image": null,
       "context": {
         "fr": "Brique d'apprentissage de l'orchestration : séparer le plan de contrôle (Airflow local) du plan de calcul (EC2), un schéma que l'on retrouve dans toute architecture MLOps sérieuse.",
-        "en": "An orchestration learning building block: separating the control plane (local Airflow) from the compute plane (EC2) — a pattern found in any serious MLOps architecture."
+        "en": "An orchestration learning building block: separating the control plane (local Airflow) from the compute plane (EC2) - a pattern found in any serious MLOps architecture."
       }
     },
     {
       "id": "getaround",
       "featured": true,
       "title": {
-        "fr": "Getaround — Analyse & API de pricing",
-        "en": "Getaround — Analysis & Pricing API"
+        "fr": "Getaround - Analyse & API de pricing",
+        "en": "Getaround - Analysis & Pricing API"
       },
       "summary": {
         "fr": "Analyse de l'impact des retards de restitution des véhicules et mise à disposition d'un modèle de prédiction de prix via une API.",
@@ -289,8 +289,8 @@
       "id": "windscan-predictive",
       "featured": false,
       "title": {
-        "fr": "WindScan v1 — Maintenance prédictive d'éoliennes",
-        "en": "WindScan v1 — Wind Turbine Predictive Maintenance"
+        "fr": "WindScan v1 - Maintenance prédictive d'éoliennes",
+        "en": "WindScan v1 - Wind Turbine Predictive Maintenance"
       },
       "summary": {
         "fr": "Première itération du projet WindScan : analyse exploratoire des données capteurs, comparaison de 7 modèles avec tracking MLflow, ETL S3 → PostgreSQL (Neon) et dashboard Streamlit de monitoring.",
@@ -305,8 +305,8 @@
       "id": "att-spam",
       "featured": false,
       "title": {
-        "fr": "AT&T — Détecteur de spam SMS",
-        "en": "AT&T — SMS Spam Detector"
+        "fr": "AT&T - Détecteur de spam SMS",
+        "en": "AT&T - SMS Spam Detector"
       },
       "summary": {
         "fr": "Classification de SMS spam/ham par NLP : comparaison d'approches de complexité croissante, du TF-IDF + régression logistique aux réseaux de neurones profonds.",
@@ -321,8 +321,8 @@
       "id": "north-face",
       "featured": false,
       "title": {
-        "fr": "The North Face — Recommandation & topic modeling",
-        "en": "The North Face — Recommendations & Topic Modeling"
+        "fr": "The North Face - Recommandation & topic modeling",
+        "en": "The North Face - Recommendations & Topic Modeling"
       },
       "summary": {
         "fr": "Moteur de suggestions « vous aimerez aussi » et extraction automatique de thèmes du catalogue produits : preprocessing NLP avec spaCy, clustering et topic modeling.",
@@ -337,8 +337,8 @@
       "id": "uber-pickups",
       "featured": false,
       "title": {
-        "fr": "Uber — Zones chaudes de pickups à New York",
-        "en": "Uber — NYC Pickup Hot Zones"
+        "fr": "Uber - Zones chaudes de pickups à New York",
+        "en": "Uber - NYC Pickup Hot Zones"
       },
       "summary": {
         "fr": "Identification par clustering (KMeans) des zones de forte demande par heure et jour de la semaine, pour positionner les chauffeurs avant les pics.",
@@ -353,8 +353,8 @@
       "id": "walmart-sales",
       "featured": false,
       "title": {
-        "fr": "Walmart — Prédiction des ventes hebdomadaires",
-        "en": "Walmart — Weekly Sales Prediction"
+        "fr": "Walmart - Prédiction des ventes hebdomadaires",
+        "en": "Walmart - Weekly Sales Prediction"
       },
       "summary": {
         "fr": "Modèles de régression reliant les ventes aux indicateurs économiques (chômage, prix du carburant, CPI, température) pour identifier les facteurs les plus déterminants.",
@@ -369,8 +369,8 @@
       "id": "tinder-eda",
       "featured": false,
       "title": {
-        "fr": "Tinder — Analyse exploratoire speed dating",
-        "en": "Tinder — Speed Dating EDA"
+        "fr": "Tinder - Analyse exploratoire speed dating",
+        "en": "Tinder - Speed Dating EDA"
       },
       "summary": {
         "fr": "Exploration d'un dataset de speed dating pour comprendre les facteurs qui déclenchent un match : préférences déclarées vs comportements réels.",
@@ -385,8 +385,8 @@
       "id": "steam-market",
       "featured": false,
       "title": {
-        "fr": "Steam — Analyse du marché du jeu vidéo",
-        "en": "Steam — Video Game Market Analysis"
+        "fr": "Steam - Analyse du marché du jeu vidéo",
+        "en": "Steam - Video Game Market Analysis"
       },
       "summary": {
         "fr": "Analyse de 55 000+ jeux sur Databricks / PySpark : tendances du marché, genres porteurs et facteurs de popularité d'un titre.",
@@ -401,8 +401,8 @@
       "id": "kayak-trip",
       "featured": false,
       "title": {
-        "fr": "Kayak — Recommandation de destinations",
-        "en": "Kayak — Destination Recommendation"
+        "fr": "Kayak - Recommandation de destinations",
+        "en": "Kayak - Destination Recommendation"
       },
       "summary": {
         "fr": "Croisement des prévisions météo à 7 jours de 35 villes françaises avec les meilleurs hôtels Booking (scraping), restitué sur carte interactive.",
@@ -433,8 +433,8 @@
       "id": "spotify-governance",
       "featured": false,
       "title": {
-        "fr": "Spotify — Framework de gouvernance des données",
-        "en": "Spotify — Data Governance Framework"
+        "fr": "Spotify - Framework de gouvernance des données",
+        "en": "Spotify - Data Governance Framework"
       },
       "summary": {
         "fr": "Conception d'un cadre de gouvernance : évaluation de maturité, politiques, rôles et responsabilités, conformité RGPD / CCPA / PCI-DSS et plan d'implémentation.",
@@ -449,8 +449,8 @@
       "id": "stripe-architecture",
       "featured": false,
       "title": {
-        "fr": "Stripe — Architecture OLTP / OLAP / NoSQL",
-        "en": "Stripe — OLTP / OLAP / NoSQL Architecture"
+        "fr": "Stripe - Architecture OLTP / OLAP / NoSQL",
+        "en": "Stripe - OLTP / OLAP / NoSQL Architecture"
       },
       "summary": {
         "fr": "Conception d'une architecture de données unifiée : transactionnel, analytique et documentaire, pipeline d'intégration, sécurité / conformité et ML de détection de fraude.",

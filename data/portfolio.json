@@ -22,8 +22,8 @@
     "linkedin": "https://www.linkedin.com/in/julien-charlier-3a41b779/"
   },
   "about": {
-    "fr": "Architecte Data / IA, je conçois des solutions d'intelligence artificielle ancrées dans l'IoT et le monde industriel. Façonné par plus de 14 ans de terrain, chef d'entreprise dans les ascenseurs inclinés, l'automatisme, la domotique et l'IoT, expert support technique puis technicien support SAV expert Toyota, j'ai acquis une compréhension fine des systèmes physiques, de leurs capteurs et de leurs contraintes réelles. J'ai déjà fait le pont entre le terrain et l'IA en concevant un chatbot de recherche de panne. Ma valeur : une double compétence OT/IT qui me permet de transformer la donnée capteur (ESP32, LoRaWAN) en modèles prédictifs concrets, du edge jusqu'au cloud. Je prépare la certification AWS Solutions Architect.",
-    "en": "A Data / AI Architect, I design artificial intelligence solutions rooted in IoT and the industrial world. Shaped by more than 14 years in the field, company director in inclined elevators, automation, home automation and IoT, technical support expert, then Toyota expert SAV support technician, I have gained a deep understanding of physical systems, their sensors, and their real-world constraints. I have already bridged the field and AI by designing a fault-diagnosis chatbot. My edge: an OT/IT dual expertise that lets me turn sensor data (ESP32, LoRaWAN) into concrete predictive models, from the edge to the cloud. I'm preparing the AWS Solutions Architect certification."
+    "fr": "Architecte Data / IA, je conçois des solutions d'intelligence artificielle ancrées dans l'IoT et le monde industriel. Façonné par plus de 14 ans de terrain, chef d'entreprise dans les ascenseurs inclinés, l'automatisme, la domotique et l'IoT, expert technique, j'ai acquis une compréhension fine des systèmes physiques, de leurs capteurs et de leurs contraintes réelles. J'ai déjà fait le pont entre le terrain et l'IA en concevant un agent conversationnel (Chatbot) d’aide au diagnostic technique. Ma valeur : une double compétence OT/IT qui me permet de transformer la donnée capteur (ESP32, LoRaWAN) en modèles prédictifs concrets, de l'edge jusqu'au cloud. Je prépare la certification AWS Solutions Architect.",
+    "en": "A Data / AI Architect, I design artificial intelligence solutions rooted in IoT and the industrial world. Shaped by more than 14 years in the field, as a company director in inclined elevators, automation, home automation and IoT, and as a technical expert, I have gained a deep understanding of physical systems, their sensors, and their real-world constraints. I have already bridged the field and AI by designing a conversational agent (chatbot) for technical fault diagnosis. My edge: an OT/IT dual expertise that lets me turn sensor data (ESP32, LoRaWAN) into concrete predictive models, from the edge to the cloud. I'm preparing the AWS Solutions Architect certification."
   },
   "experience": [
     {
@@ -39,20 +39,32 @@
       "stack": ["Python", "Machine Learning", "MLOps", "Pédagogie"]
     },
     {
+      "id": "gendarme",
+      "role": { "fr": "Gendarme de réserve", "en": "Reserve Gendarme" },
+      "company": "Gendarmerie Nationale",
+      "location": { "fr": "Marseille", "en": "Marseille" },
+      "period": { "fr": "Novembre 2016 – aujourd'hui", "en": "Nov 2016 – Present" },
+      "description": {
+        "fr": "Traitement de l'information au sein du Centre d'Opérations et de Renseignement de la Gendarmerie (CORG) : analyse de données, veille et renseignement.",
+        "en": "Information processing at the Gendarmerie's Operations and Intelligence Center (CORG): data analysis, monitoring, and intelligence gathering."
+      },
+      "stack": ["Gestion de crise", "Rigueur", "Discernement", "Analyse de données"]
+    },
+    {
       "id": "actemis",
-      "role": { "fr": "Technicien support SAV - Expert Toyota", "en": "SAV Support Technician - Toyota Expert" },
+      "role": { "fr": "Technicien support SAV - Expert Toyota", "en": "After-Sales Support Technician - Toyota Expert" },
       "company": "Actemis",
       "location": { "fr": "Vitrolles (13)", "en": "Vitrolles, France" },
       "period": { "fr": "Mars 2022 – Juillet 2026", "en": "Mar 2022 – Jul 2026" },
       "description": {
-        "fr": "Optimisation des process de dépannage et création d'un chatbot de recherche de panne. Gestion à distance des pannes, formation technique interne et client, relation commerciale.",
+        "fr": "Optimisation des process de dépannage et création d'un agent conversationnel (Chatbot) d’aide au diagnostic technique. Gestion à distance des pannes, formation technique interne et client, relation commerciale.",
         "en": "Optimization of troubleshooting processes and creation of a fault-diagnosis chatbot. Remote fault management, internal and customer technical training, and commercial relations."
       },
-      "stack": ["Chatbot", "Diagnostic", "Support technique"]
+      "stack": ["Chatbot", "Formation", "Support technique", "Relation client"]
     },
     {
       "id": "toyota-mh",
-      "role": { "fr": "Technicien support client SAV", "en": "Customer SAV Support Technician" },
+      "role": { "fr": "Technicien support client SAV", "en": "Customer After-Sales Support Technician" },
       "company": "Toyota Material Handling",
       "location": { "fr": "Haute-Savoie (74)", "en": "Haute-Savoie, France" },
       "period": { "fr": "Octobre 2019 – Mars 2022", "en": "Oct 2019 – Mar 2022" },
@@ -64,15 +76,15 @@
     },
     {
       "id": "techni-steel",
-      "role": { "fr": "Expert support technique - Ascenseur incliné & automatisme", "en": "Technical Support Expert - Inclined Elevators & Automation" },
+      "role": { "fr": "Expert technique - Ascenseur incliné & automatisme", "en": "Technical Expert - Inclined Elevators & Automation" },
       "company": "Techni-steel",
       "location": { "fr": "Nice (06)", "en": "Nice, France" },
       "period": { "fr": "Février 2019 – Septembre 2019", "en": "Feb 2019 – Sep 2019" },
       "description": {
-        "fr": "Étude et réalisation de projets d'ascenseur incliné, mise en place de solutions techniques et collaboration avec le bureau R&D.",
-        "en": "Design and delivery of inclined elevator projects, implementation of technical solutions, and collaboration with the R&D office."
+        "fr": "Gestion de projets d'ascenseur incliné, mise en place de solutions techniques et collaboration avec le bureau R&D, gestion des données du parc d'ascenseurs.",
+        "en": "Management of inclined elevator projects, implementation of technical solutions, collaboration with the R&D office, and management of the elevator fleet data."
       },
-      "stack": ["Automatisme", "R&D"]
+      "stack": ["Gestion de projet", "Automatisme", "R&D"]
     },
     {
       "id": "azurea",
@@ -84,7 +96,7 @@
         "fr": "Gestion de projets d'ascenseur incliné en France et à l'étranger, expertise technique, domotique, IoT et automatismes.",
         "en": "Management of inclined elevator projects in France and abroad, technical expertise, home automation, IoT, and automation systems."
       },
-      "stack": ["Domotique", "IoT", "Automatismes"]
+      "stack": ["Gestion de projet", "Domotique", "IoT", "Automatismes"]
     }
   ],
   "education": [
@@ -99,7 +111,7 @@
       "period": { "fr": "Juillet 2025 – Juin 2026", "en": "Jul 2025 – Jun 2026" },
       "description": {
         "fr": "Certification RNCP 38777 Bac +5 - Architecte en IA, et RNCP 35288 Bac +3/4 - Concepteur développeur en science des données. Machine learning, deep learning, pipelines MLOps, orchestration et déploiement cloud.",
-        "en": "RNCP 38777 (level 7) - AI Architect, and RNCP 35288 (level 6) - Data Science Developer certifications. Machine learning, deep learning, MLOps pipelines, orchestration, and cloud deployment."
+        "en": "RNCP 38777 (level 7, Master's degree equivalent) - AI Architect, and RNCP 35288 (level 6, Bachelor's degree equivalent) - Data Science Developer certifications. Machine learning, deep learning, MLOps pipelines, orchestration, and cloud deployment."
       },
       "stack": ["Python", "Machine Learning", "Deep Learning", "MLOps", "Kubernetes", "AWS"]
     },
@@ -137,7 +149,7 @@
   "skills": [
     {
       "category": { "fr": "Programmation & Data", "en": "Programming & Data" },
-      "items": ["Python", "Pandas", "NumPy", "Matplotlib", "Plotly", "SQL", "Bash"]
+      "items": ["Python", "SQL", "Bash"]
     },
     {
       "category": { "fr": "Machine Learning & Deep Learning", "en": "Machine Learning & Deep Learning" },
@@ -149,15 +161,15 @@
     },
     {
       "category": { "fr": "Cloud", "en": "Cloud" },
-      "items": ["AWS (S3, EC2)", "AWS SAA (en cours)", "GCP", "Hugging Face Spaces"]
+      "items": ["AWS", "GCP", "Hugging Face Spaces"]
     },
     {
       "category": { "fr": "IoT & Embarqué", "en": "IoT & Embedded" },
-      "items": ["ESP32", "LoRa / LoRaWAN", "RTSP", "Capteurs"]
+      "items": ["ESP32", "LoRa / LoRaWAN"]
     },
     {
       "category": { "fr": "Serving & Dataviz", "en": "Serving & Dataviz" },
-      "items": ["FastAPI", "Streamlit"]
+      "items": ["FastAPI", "Streamlit", "Tableau", "Power BI"]
     },
     {
       "category": { "fr": "Langues", "en": "Languages" },

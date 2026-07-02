@@ -1,6 +1,6 @@
 # CV GitHub
 
-Portfolio de **Julien Charlier** — Architecte Data / IA · IoT (LoRaWAN) & Modélisation prédictive · Double compétence OT-IT.
+Portfolio de **Julien Charlier** - Architecte Data / IA · IoT (LoRaWAN) & Modélisation prédictive · Double compétence OT-IT.
 
 > Je relie le terrain industriel à l'intelligence artificielle, de la donnée capteur terrain au déploiement en production de modèles prédictifs.
 
@@ -8,7 +8,7 @@ Portfolio de **Julien Charlier** — Architecte Data / IA · IoT (LoRaWAN) & Mod
 
 ## Aperçu
 
-- **Parcours** : plus de 14 ans de terrain industriel — ascenseurs inclinés, automatisme, domotique, IoT, support technique expert Toyota — puis reconversion en Architecte Data / IA (certification RNCP niveau 7, Jedha)
+- **Parcours** : plus de 14 ans de terrain industriel (ascenseurs inclinés, automatisme, domotique, IoT, support technique expert Toyota), puis reconversion en Architecte Data / IA (certification RNCP niveau 7, Jedha)
 - **Compétences** : Python, machine learning & deep learning, pipelines MLOps (Airflow, MLflow, Docker, Kubernetes), cloud AWS, IoT & embarqué (ESP32, LoRaWAN), computer vision (YOLO, OpenCV)
 - **Projets** : maintenance prédictive d'éoliennes (pipeline MLOps de bout en bout), détection de fraude bancaire en temps réel, détection d'objets sur flux RTSP, dashboard temps réel des places de parkings d'Aix-en-Provence
 - **Langues** : Français / Anglais

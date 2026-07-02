@@ -98,7 +98,7 @@
       "location": { "fr": "Paris (75)", "en": "Paris, France" },
       "period": { "fr": "Juillet 2025 – Juin 2026", "en": "Jul 2025 – Jun 2026" },
       "description": {
-        "fr": "Certification RNCP 38777 (niveau 7) - Architecte en IA, et RNCP 35288 (niveau 6) - Concepteur développeur en science des données. Machine learning, deep learning, pipelines MLOps, orchestration et déploiement cloud.",
+        "fr": "Certification RNCP 38777 Bac +5 - Architecte en IA, et RNCP 35288 Bac +3/4 - Concepteur développeur en science des données. Machine learning, deep learning, pipelines MLOps, orchestration et déploiement cloud.",
         "en": "RNCP 38777 (level 7) - AI Architect, and RNCP 35288 (level 6) - Data Science Developer certifications. Machine learning, deep learning, MLOps pipelines, orchestration, and cloud deployment."
       },
       "stack": ["Python", "Machine Learning", "Deep Learning", "MLOps", "Kubernetes", "AWS"]

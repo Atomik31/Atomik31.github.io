@@ -163,6 +163,7 @@ function renderSkills() {
 
 function renderProjects() {
   const featured = data.projects.filter((p) => p.featured);
+  const others = data.projects.filter((p) => !p.featured);
   const labels = data.labels;
 
   const cards = featured
@@ -195,10 +196,33 @@ function renderProjects() {
     })
     .join("");
 
+  const otherCards = others
+    .map(
+      (project) => `
+        <article class="project-card project-card-compact">
+          <h3>${t(project.title)}</h3>
+          <p class="project-summary">${t(project.summary)}</p>
+          <div class="project-stack">
+            ${project.stack.map((tech) => `<span>${tech}</span>`).join("")}
+          </div>
+          <div class="project-links">
+            <a href="${project.repo_url}" target="_blank" rel="noopener noreferrer">${t(labels.repo)}</a>
+          </div>
+        </article>
+      `
+    )
+    .join("");
+
+  const othersBlock = others.length
+    ? `<h3 class="projects-subtitle">${t(labels.otherProjects)}</h3>
+      <div class="projects-grid-compact">${otherCards}</div>`
+    : "";
+
   document.getElementById("projects").innerHTML = `
     <div class="container">
       <h2 class="section-title">${t(data.nav.projects)}</h2>
       <div class="projects-grid">${cards}</div>
+      ${othersBlock}
     </div>
   `;
 }

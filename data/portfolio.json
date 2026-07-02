@@ -165,12 +165,12 @@
         "en": "End-to-end MLOps solution to anticipate turbine failures: sensor data (rotor, temperature, vibration), distributed Random Forest training on Kubernetes, FastAPI serving API, Airflow orchestration with drift monitoring, and a Streamlit dashboard."
       },
       "stack": ["Python", "scikit-learn", "Ray / KubeRay", "Kubernetes", "Airflow", "MLflow", "Evidently", "FastAPI", "Streamlit", "AWS S3"],
-      "repo_url": "https://github.com/Atomik31/projet-final-dsl-ft-37",
+      "repo_url": "https://github.com/Atomik31/Windscan-MLops",
       "demo_url": null,
       "image": null,
       "context": {
-        "fr": "Projet de certification Lead chez Jedha. C'est là que ma double compétence OT/IT prend tout son sens : relier des capteurs industriels à un pipeline ML complet, de l'entraînement distribué jusqu'à l'inférence batch automatisée.",
-        "en": "Lead certification project at Jedha. This is where my OT/IT dual expertise truly comes into play: connecting industrial sensors to a complete ML pipeline, from distributed training to automated batch inference."
+        "fr": "C'est le projet où ma double compétence OT/IT prend tout son sens : relier des capteurs industriels à un pipeline ML complet, de l'entraînement distribué jusqu'à l'inférence batch automatisée.",
+        "en": "This is the project where my OT/IT dual expertise truly comes into play: connecting industrial sensors to a complete ML pipeline, from distributed training to automated batch inference."
       }
     },
     {
@@ -189,8 +189,8 @@
       "demo_url": null,
       "image": null,
       "context": {
-        "fr": "Projet de certification Lead. L'enjeu : gérer un dataset fortement déséquilibré (0,38 % de fraudes) tout en produisant des alertes fiables en continu et un bilan quotidien automatisé.",
-        "en": "Lead certification project. The challenge: handling a highly imbalanced dataset (0.38% fraud) while producing reliable continuous alerts and an automated daily report."
+        "fr": "L'enjeu : gérer un dataset fortement déséquilibré (0,38 % de fraudes) tout en produisant des alertes fiables en continu et un bilan quotidien automatisé.",
+        "en": "The challenge: handling a highly imbalanced dataset (0.38% fraud) while producing reliable continuous alerts and an automated daily report."
       }
     },
     {
@@ -226,7 +226,7 @@
       },
       "stack": ["Python", "Streamlit", "Pandas", "Requests", "Threading"],
       "repo_url": "https://github.com/Atomik31/Dashboard-parking",
-      "demo_url": null,
+      "demo_url": "https://dashboard-parking.streamlit.app/",
       "image": null,
       "context": {
         "fr": "Projet utile né d'un besoin local concret. Un bon terrain pour pratiquer la collecte de données, la robustesse d'un service qui tourne en continu et la mise à disposition d'une interface simple et gratuite.",
@@ -261,8 +261,8 @@
         "en": "Getaround — Analysis & Pricing API"
       },
       "summary": {
-        "fr": "Projet de certification Fullstack : analyse de l'impact des retards de restitution et mise à disposition d'un modèle de prédiction de prix via une API.",
-        "en": "Fullstack certification project: analyzing the impact of late vehicle returns and exposing a price-prediction model through an API."
+        "fr": "Analyse de l'impact des retards de restitution des véhicules et mise à disposition d'un modèle de prédiction de prix via une API.",
+        "en": "Analysis of the impact of late vehicle returns, with a price-prediction model exposed through an API."
       },
       "stack": ["Python", "Pandas", "scikit-learn", "FastAPI", "Streamlit"],
       "repo_url": "https://github.com/Atomik31/Getaround",

@@ -267,7 +267,7 @@
     },
     {
       "id": "getaround",
-      "featured": false,
+      "featured": true,
       "title": {
         "fr": "Getaround — Analyse & API de pricing",
         "en": "Getaround — Analysis & Pricing API"
@@ -284,6 +284,182 @@
         "fr": "Un cas concret de bout en bout : de l'analyse exploratoire jusqu'à la mise en production d'un modèle exploitable par une équipe produit.",
         "en": "A concrete end-to-end case: from exploratory analysis to deploying a model usable by a product team."
       }
+    },
+    {
+      "id": "windscan-predictive",
+      "featured": false,
+      "title": {
+        "fr": "WindScan v1 — Maintenance prédictive d'éoliennes",
+        "en": "WindScan v1 — Wind Turbine Predictive Maintenance"
+      },
+      "summary": {
+        "fr": "Première itération du projet WindScan : analyse exploratoire des données capteurs, comparaison de 7 modèles avec tracking MLflow, ETL S3 → PostgreSQL (Neon) et dashboard Streamlit de monitoring.",
+        "en": "First iteration of the WindScan project: sensor data EDA, comparison of 7 models with MLflow tracking, S3 → PostgreSQL (Neon) ETL, and a Streamlit monitoring dashboard."
+      },
+      "stack": ["Python", "scikit-learn", "MLflow", "PostgreSQL / Neon", "AWS S3", "Streamlit"],
+      "repo_url": "https://github.com/Atomik31/Windscan-maintenance-predictive",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "att-spam",
+      "featured": false,
+      "title": {
+        "fr": "AT&T — Détecteur de spam SMS",
+        "en": "AT&T — SMS Spam Detector"
+      },
+      "summary": {
+        "fr": "Classification de SMS spam/ham par NLP : comparaison d'approches de complexité croissante, du TF-IDF + régression logistique aux réseaux de neurones profonds.",
+        "en": "Spam/ham SMS classification with NLP: comparing approaches of increasing complexity, from TF-IDF + logistic regression to deep neural networks."
+      },
+      "stack": ["Python", "NLP", "TensorFlow", "Deep Learning"],
+      "repo_url": "https://github.com/Atomik31/At-t",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "north-face",
+      "featured": false,
+      "title": {
+        "fr": "The North Face — Recommandation & topic modeling",
+        "en": "The North Face — Recommendations & Topic Modeling"
+      },
+      "summary": {
+        "fr": "Moteur de suggestions « vous aimerez aussi » et extraction automatique de thèmes du catalogue produits : preprocessing NLP avec spaCy, clustering et topic modeling.",
+        "en": "A \"you may also like\" suggestion engine and automatic catalog theme extraction: NLP preprocessing with spaCy, clustering, and topic modeling."
+      },
+      "stack": ["Python", "spaCy", "NLP", "Clustering"],
+      "repo_url": "https://github.com/Atomik31/The_north_face",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "uber-pickups",
+      "featured": false,
+      "title": {
+        "fr": "Uber — Zones chaudes de pickups à New York",
+        "en": "Uber — NYC Pickup Hot Zones"
+      },
+      "summary": {
+        "fr": "Identification par clustering (KMeans) des zones de forte demande par heure et jour de la semaine, pour positionner les chauffeurs avant les pics.",
+        "en": "Clustering (KMeans) high-demand pickup zones by hour and weekday to position drivers ahead of demand peaks."
+      },
+      "stack": ["Python", "KMeans", "Pandas", "Plotly"],
+      "repo_url": "https://github.com/Atomik31/Uber",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "walmart-sales",
+      "featured": false,
+      "title": {
+        "fr": "Walmart — Prédiction des ventes hebdomadaires",
+        "en": "Walmart — Weekly Sales Prediction"
+      },
+      "summary": {
+        "fr": "Modèles de régression reliant les ventes aux indicateurs économiques (chômage, prix du carburant, CPI, température) pour identifier les facteurs les plus déterminants.",
+        "en": "Regression models linking sales to economic indicators (unemployment, fuel price, CPI, temperature) to identify the key drivers."
+      },
+      "stack": ["Python", "scikit-learn", "Pandas"],
+      "repo_url": "https://github.com/Atomik31/Walmart",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "tinder-eda",
+      "featured": false,
+      "title": {
+        "fr": "Tinder — Analyse exploratoire speed dating",
+        "en": "Tinder — Speed Dating EDA"
+      },
+      "summary": {
+        "fr": "Exploration d'un dataset de speed dating pour comprendre les facteurs qui déclenchent un match : préférences déclarées vs comportements réels.",
+        "en": "Exploring a speed dating dataset to understand what drives a match: stated preferences vs. actual behavior."
+      },
+      "stack": ["Python", "Pandas", "EDA", "Dataviz"],
+      "repo_url": "https://github.com/Atomik31/Tinder",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "steam-market",
+      "featured": false,
+      "title": {
+        "fr": "Steam — Analyse du marché du jeu vidéo",
+        "en": "Steam — Video Game Market Analysis"
+      },
+      "summary": {
+        "fr": "Analyse de 55 000+ jeux sur Databricks / PySpark : tendances du marché, genres porteurs et facteurs de popularité d'un titre.",
+        "en": "Analysis of 55,000+ games on Databricks / PySpark: market trends, promising genres, and drivers of a title's popularity."
+      },
+      "stack": ["PySpark", "Databricks", "SQL"],
+      "repo_url": "https://github.com/Atomik31/Steam",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "kayak-trip",
+      "featured": false,
+      "title": {
+        "fr": "Kayak — Recommandation de destinations",
+        "en": "Kayak — Destination Recommendation"
+      },
+      "summary": {
+        "fr": "Croisement des prévisions météo à 7 jours de 35 villes françaises avec les meilleurs hôtels Booking (scraping), restitué sur carte interactive.",
+        "en": "Combining 7-day weather forecasts for 35 French cities with top-rated Booking hotels (scraping), rendered on an interactive map."
+      },
+      "stack": ["Python", "Scraping", "APIs", "Plotly", "AWS S3"],
+      "repo_url": "https://github.com/Atomik31/Kayak",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "conversion-rate",
+      "featured": false,
+      "title": {
+        "fr": "Conversion Rate Challenge",
+        "en": "Conversion Rate Challenge"
+      },
+      "summary": {
+        "fr": "Challenge type Kaggle : prédire la conversion des visiteurs d'un site en abonnés newsletter, avec optimisation du F1-score.",
+        "en": "Kaggle-style challenge: predicting whether a site visitor converts to a newsletter subscriber, optimizing F1-score."
+      },
+      "stack": ["Python", "scikit-learn", "Feature engineering"],
+      "repo_url": "https://github.com/Atomik31/Conversion_rate_challenge",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "spotify-governance",
+      "featured": false,
+      "title": {
+        "fr": "Spotify — Framework de gouvernance des données",
+        "en": "Spotify — Data Governance Framework"
+      },
+      "summary": {
+        "fr": "Conception d'un cadre de gouvernance : évaluation de maturité, politiques, rôles et responsabilités, conformité RGPD / CCPA / PCI-DSS et plan d'implémentation.",
+        "en": "Designing a governance framework: maturity assessment, policies, roles & responsibilities, GDPR / CCPA / PCI-DSS compliance, and an implementation plan."
+      },
+      "stack": ["Data Governance", "RGPD / CCPA", "PCI-DSS"],
+      "repo_url": "https://github.com/Atomik31/Spotify",
+      "demo_url": null,
+      "image": null
+    },
+    {
+      "id": "stripe-architecture",
+      "featured": false,
+      "title": {
+        "fr": "Stripe — Architecture OLTP / OLAP / NoSQL",
+        "en": "Stripe — OLTP / OLAP / NoSQL Architecture"
+      },
+      "summary": {
+        "fr": "Conception d'une architecture de données unifiée : transactionnel, analytique et documentaire, pipeline d'intégration, sécurité / conformité et ML de détection de fraude.",
+        "en": "Designing a unified data architecture: transactional, analytical, and document stores, integration pipeline, security / compliance, and fraud-detection ML."
+      },
+      "stack": ["OLTP / OLAP", "NoSQL", "Data Architecture"],
+      "repo_url": "https://github.com/Atomik31/Stripe",
+      "demo_url": null,
+      "image": null
     }
   ],
   "nav": {
@@ -298,6 +474,7 @@
     "downloadCv": { "fr": "Télécharger le CV", "en": "Download CV" },
     "viewGithub": { "fr": "Voir GitHub", "en": "View GitHub" },
     "repo": { "fr": "Code source", "en": "Source code" },
+    "otherProjects": { "fr": "Autres projets", "en": "More projects" },
     "demo": { "fr": "Démo", "en": "Demo" },
     "context": { "fr": "Mon regard", "en": "My take" },
     "email": { "fr": "Email", "en": "Email" },

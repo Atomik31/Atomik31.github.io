@@ -413,6 +413,23 @@ a:hover {
   font-weight: 500;
 }
 
+.projects-subtitle {
+  margin: 2.5rem 0 1.25rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.projects-grid-compact {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.project-card-compact {
+  padding: 1.1rem 1.25rem;
+  gap: 0.5rem;
+}
+
 /* Contact */
 
 .contact-list {

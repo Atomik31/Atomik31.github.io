@@ -27,6 +27,18 @@
   },
   "experience": [
     {
+      "id": "jedha-ta",
+      "role": { "fr": "Teacher Assistant — Freelance", "en": "Teacher Assistant — Freelance" },
+      "company": "Jedha",
+      "location": { "fr": "Paris / À distance", "en": "Paris / Remote" },
+      "period": { "fr": "À partir d'août 2026", "en": "From Aug 2026" },
+      "description": {
+        "fr": "Accompagnement des apprenants des bootcamps Data Science & IA : support technique sur les projets, aide au débogage et à la compréhension des concepts (Python, machine learning, MLOps).",
+        "en": "Supporting Data Science & AI bootcamp students: technical guidance on projects, debugging help, and concept explanations (Python, machine learning, MLOps)."
+      },
+      "stack": ["Python", "Machine Learning", "MLOps", "Pédagogie"]
+    },
+    {
       "id": "actemis",
       "role": { "fr": "Technicien support SAV — Expert Toyota", "en": "SAV Support Technician — Toyota Expert" },
       "company": "Actemis",

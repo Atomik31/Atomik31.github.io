@@ -250,7 +250,7 @@
       },
       "stack": ["Python", "Streamlit", "Pandas", "Requests", "Threading"],
       "repo_url": "https://github.com/Atomik31/Dashboard-parking",
-      "demo_url": "https://dashboard-parking.streamlit.app/",
+      "demo_url": "https://atomik31-dashboard-parking-aix.hf.space/",
       "image": null,
       "context": {
         "fr": "Projet utile né d'un besoin local concret. Un bon terrain pour pratiquer la collecte de données, la robustesse d'un service qui tourne en continu et la mise à disposition d'une interface simple et gratuite.",

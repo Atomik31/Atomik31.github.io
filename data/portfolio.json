@@ -1,29 +1,29 @@
 {
   "meta": {
     "siteTitle": {
-      "fr": "Julien Charlier - Architecte Data & IA",
-      "en": "Julien Charlier - Data & AI Architect"
+      "fr": "Julien Charlier - Cloud Data Engineer",
+      "en": "Julien Charlier - Cloud Data Engineer"
     }
   },
   "profile": {
     "name": "Julien Charlier",
     "title": {
-      "fr": "Architecte Data / IA · Spécialiste IoT (LoRaWAN) & Modélisation Prédictive · Double compétence OT-IT",
-      "en": "Data / AI Architect · IoT (LoRaWAN) & Predictive Modeling Specialist · OT-IT Dual Expertise"
+      "fr": "Cloud Data Engineer | IoT & AI Solutions | Double compétence OT-IT",
+      "en": "Cloud Data Engineer | IoT & AI Solutions | OT-IT Dual Expertise"
     },
     "tagline": {
       "fr": "Je relie le terrain industriel à l'intelligence artificielle, de la donnée capteur terrain au déploiement en production de modèles prédictifs.",
       "en": "I bridge industrial operations and artificial intelligence - from field sensor data to the production deployment of predictive models."
     },
     "photo": "assets/images/photo-pro.jpg",
-    "cv": "assets/pdf/cv.pdf",
+    "cv": "assets/pdf/CV_Julien-CHARLIER_2026_Cloud_Data_Engineer.pdf",
     "email": "julien.charlier31@gmail.com",
     "github": "https://github.com/Atomik31",
     "linkedin": "https://www.linkedin.com/in/julien-charlier-3a41b779/"
   },
   "about": {
-    "fr": "Architecte Data / IA, je conçois des solutions d'intelligence artificielle ancrées dans l'IoT et le monde industriel. Façonné par plus de 14 ans de terrain, chef d'entreprise dans les ascenseurs inclinés, l'automatisme, la domotique et l'IoT, expert technique, j'ai acquis une compréhension fine des systèmes physiques, de leurs capteurs et de leurs contraintes réelles. J'ai déjà fait le pont entre le terrain et l'IA en concevant un agent conversationnel (Chatbot) d’aide au diagnostic technique. Ma valeur : une double compétence OT/IT qui me permet de transformer la donnée capteur (ESP32, LoRaWAN) en modèles prédictifs concrets, de l'edge jusqu'au cloud. Je prépare la certification AWS Solutions Architect.",
-    "en": "A Data / AI Architect, I design artificial intelligence solutions rooted in IoT and the industrial world. Shaped by more than 14 years in the field, as a company director in inclined elevators, automation, home automation and IoT, and as a technical expert, I have gained a deep understanding of physical systems, their sensors, and their real-world constraints. I have already bridged the field and AI by designing a conversational agent (chatbot) for technical fault diagnosis. My edge: an OT/IT dual expertise that lets me turn sensor data (ESP32, LoRaWAN) into concrete predictive models, from the edge to the cloud. I'm preparing the AWS Solutions Architect certification."
+    "fr": "Cloud Data Engineer, je conçois des solutions d'intelligence artificielle ancrées dans l'IoT et le monde industriel. Façonné par plus de 14 ans de terrain, chef d'entreprise dans les ascenseurs inclinés, l'automatisme, la domotique et l'IoT, expert technique, j'ai acquis une compréhension fine des systèmes physiques, de leurs capteurs et de leurs contraintes réelles. J'ai déjà fait le pont entre le terrain et l'IA en concevant un agent conversationnel (Chatbot) d’aide au diagnostic technique. Ma valeur : une double compétence OT/IT qui me permet de transformer la donnée capteur (ESP32, LoRaWAN) en modèles prédictifs concrets, de l'edge jusqu'au cloud. Je prépare la certification AWS Solutions Architect.",
+    "en": "A Cloud Data Engineer, I design artificial intelligence solutions rooted in IoT and the industrial world. Shaped by more than 14 years in the field, as a company director in inclined elevators, automation, home automation and IoT, and as a technical expert, I have gained a deep understanding of physical systems, their sensors, and their real-world constraints. I have already bridged the field and AI by designing a conversational agent (chatbot) for technical fault diagnosis. My edge: an OT/IT dual expertise that lets me turn sensor data (ESP32, LoRaWAN) into concrete predictive models, from the edge to the cloud. I'm preparing the AWS Solutions Architect certification."
   },
   "experience": [
     {
@@ -79,7 +79,7 @@
       "role": { "fr": "Expert technique - Ascenseur incliné & automatisme", "en": "Technical Expert - Inclined Elevators & Automation" },
       "company": "Techni-steel",
       "location": { "fr": "Nice (06)", "en": "Nice, France" },
-      "period": { "fr": "Février 2019 – Septembre 2019", "en": "Feb 2019 – Sep 2019" },
+      "period": { "fr": "Février 2018 – Septembre 2019", "en": "Feb 2018 – Sep 2019" },
       "description": {
         "fr": "Gestion de projets d'ascenseur incliné, mise en place de solutions techniques et collaboration avec le bureau R&D, gestion des données du parc d'ascenseurs.",
         "en": "Management of inclined elevator projects, implementation of technical solutions, collaboration with the R&D office, and management of the elevator fleet data."

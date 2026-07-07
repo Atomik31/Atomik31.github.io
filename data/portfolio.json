@@ -33,8 +33,8 @@
       "location": { "fr": "Paris / À distance", "en": "Paris / Remote" },
       "period": { "fr": "À partir d'août 2026", "en": "From Aug 2026" },
       "description": {
-        "fr": "Accompagnement des apprenants des bootcamps Data Science & IA : support technique sur les projets, aide au débogage et à la compréhension des concepts (Python, machine learning, MLOps).",
-        "en": "Supporting Data Science & AI bootcamp students: technical guidance on projects, debugging help, and concept explanations (Python, machine learning, MLOps)."
+        "fr": "Accompagnement des apprenants des bootcamps Data Science & IA : support technique sur les projets, aide au débogage et à la compréhension des concepts (Python, SQL, machine learning, MLOps, Cloud).",
+        "en": "Supporting Data Science & AI bootcamp students: technical guidance on projects, debugging help, and concept explanations (Python, SQL, machine learning, MLOps, Cloud)."
       },
       "stack": ["Python", "SQL", "Linux/bash", "Machine Learning", "MLOps", "Pédagogie", "Cloud"]
     },

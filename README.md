@@ -29,4 +29,4 @@ Tout le contenu est centralisé dans `data/portfolio.json` : modifier ce fichier
 ## Contact
 
 - GitHub : [@Atomik31](https://github.com/Atomik31)
-- LinkedIn : [Julien Charlier](https://www.linkedin.com/in/julien-charlier-3a41b779/)
+- LinkedIn : [Julien Charlier](https://www.linkedin.com/in/julien-charlier-data/)

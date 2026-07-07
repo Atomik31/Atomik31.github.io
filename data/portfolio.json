@@ -19,7 +19,7 @@
     "cv": "assets/pdf/cv.pdf",
     "email": "julien.charlier31@gmail.com",
     "github": "https://github.com/Atomik31",
-    "linkedin": "https://www.linkedin.com/in/julien-charlier-3a41b779/"
+    "linkedin": "https://www.linkedin.com/in/julien-charlier-data/"
   },
   "about": {
     "fr": "Cloud Data Engineer, je conçois des solutions d'intelligence artificielle ancrées dans l'IoT et le monde industriel. Façonné par plus de 14 ans de terrain, chef d'entreprise dans les ascenseurs inclinés, l'automatisme, la domotique et l'IoT, expert technique, j'ai acquis une compréhension fine des systèmes physiques, de leurs capteurs et de leurs contraintes réelles. J'ai déjà fait le pont entre le terrain et l'IA en concevant un agent conversationnel (Chatbot) d’aide au diagnostic technique. Ma valeur : une double compétence OT/IT qui me permet de transformer la donnée capteur (ESP32, LoRaWAN) en modèles prédictifs concrets, de l'edge jusqu'au cloud. Je prépare la certification AWS Solutions Architect.",

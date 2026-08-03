@@ -57,8 +57,8 @@
       "location": { "fr": "Vitrolles (13)", "en": "Vitrolles, France" },
       "period": { "fr": "Mars 2022 – Juillet 2026", "en": "Mar 2022 – Jul 2026" },
       "description": {
-        "fr": "Optimisation des process de dépannage et création d'un agent conversationnel (Chatbot) d’aide au diagnostic technique. Gestion à distance des pannes, formation technique interne et client, relation commerciale.",
-        "en": "Optimization of troubleshooting processes and creation of a fault-diagnosis chatbot. Remote fault management, internal and customer technical training, and commercial relations."
+        "fr": "Optimisation des process de dépannage et création d'un agent conversationnel (Chatbot) d'aide au diagnostic technique, sous forme de RAG à l'aide de N8N. Gestion à distance des pannes, formation technique interne et client, relation commerciale.",
+        "en": "Optimization of troubleshooting processes and creation of a fault-diagnosis chatbot, built as a RAG system with N8N. Remote fault management, internal and customer technical training, and commercial relations."
       },
       "stack": ["Chatbot", "Formation", "Support technique", "Relation client"]
     },
@@ -93,8 +93,8 @@
       "location": { "fr": "Biot (06)", "en": "Biot, France" },
       "period": { "fr": "Novembre 2015 – Janvier 2018", "en": "Nov 2015 – Jan 2018" },
       "description": {
-        "fr": "Gestion de projets d'ascenseur incliné en France et à l'étranger, expertise technique, domotique, IoT et automatismes.",
-        "en": "Management of inclined elevator projects in France and abroad, technical expertise, home automation, IoT, and automation systems."
+        "fr": "Développement du chiffre d'affaires : 130K€ la 2ᵉ année, 500K€ la 3ᵉ année, embauche et gestion de 4 salariés. Gestion de projets d'ascenseur incliné en France et à l'étranger, expertise technique, domotique, IoT et automatismes.",
+        "en": "Revenue growth: €130K in year two, €500K in year three, with recruitment and management of 4 employees. Management of inclined elevator projects in France and abroad, technical expertise, home automation, IoT, and automation systems."
       },
       "stack": ["Gestion de projet", "Domotique", "IoT", "Automatismes"]
     }

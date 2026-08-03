@@ -118,15 +118,15 @@
     {
       "id": "aws-saa",
       "degree": {
-        "fr": "AWS Certified Solutions Architect - Associate",
-        "en": "AWS Certified Solutions Architect - Associate"
+        "fr": "Certification AWS",
+        "en": "AWS Certification"
       },
       "school": "Amazon Web Services",
       "location": { "fr": "En ligne", "en": "Online" },
-      "period": { "fr": "Juillet 2026 (visée)", "en": "Jul 2026 (targeted)" },
+      "period": { "fr": "Juillet - Août 2026", "en": "Jul - Aug 2026" },
       "description": {
-        "fr": "Certification AWS SAA-C03 - conception d'architectures cloud résilientes, sécurisées et optimisées.",
-        "en": "AWS SAA-C03 certification - designing resilient, secure, and cost-optimized cloud architectures."
+    "fr": "Certification AWS AI Practitioner - fondamentaux de l'IA et de l'IA générative sur AWS.\nCertification AWS Cloud Practitioner - fondamentaux du cloud AWS : services, sécurité et bonnes pratiques.\nCertification AWS Solutions Architect – Associate (SAA-C03) - conception d'architectures cloud résilientes, sécurisées et optimisées.",
+    "en": "AWS AI Practitioner certification - AI and generative AI fundamentals on AWS.\nAWS Cloud Practitioner certification - AWS cloud fundamentals: services, security, and best practices.\nAWS Solutions Architect – Associate (SAA-C03) certification - designing resilient, secure, and cost-optimized cloud architectures."
       },
       "stack": ["AWS", "Cloud Architecture"]
     },

@@ -149,7 +149,7 @@
   "skills": [
     {
       "category": { "fr": "Programmation & Data", "en": "Programming & Data" },
-      "items": ["Python", "SQL", "Bash"]
+      "items": ["Python", "SQL", "Bash/Linux", "Pandas", "NumPy", "Plotly", "Matplotlib", "Seaborn"]
     },
     {
       "category": { "fr": "Machine Learning & Deep Learning", "en": "Machine Learning & Deep Learning" },
@@ -157,7 +157,11 @@
     },
     {
       "category": { "fr": "MLOps & Orchestration", "en": "MLOps & Orchestration" },
-      "items": ["Git / GitHub", "Docker", "MLflow", "Airflow", "Kubernetes", "Ray / KubeRay", "Evidently", "Great Expectations"]
+      "items": ["Git / GitHub", "Docker", "MLflow", "Airflow", "CI/CD", "Kubernetes", "Ray / KubeRay", "Evidently", "Great Expectations"]
+    },
+    {
+      "category": { "fr": "Database", "en": "Database" },
+      "items": ["OLTP", "OLAP", "PostgreSQL", "NeonDB", "NoSQL", "ETL/ELT", "Supabase"]
     },
     {
       "category": { "fr": "Cloud", "en": "Cloud" },

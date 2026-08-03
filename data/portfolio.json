@@ -254,7 +254,7 @@
       },
       "stack": ["Python", "Streamlit", "Pandas", "Requests", "Threading"],
       "repo_url": "https://github.com/Atomik31/Dashboard-parking",
-      "demo_url": "https://atomik31-dashboard-parking-aix.hf.space/",
+      "demo_url": "https://parking-aixpress.fr/",
       "image": null,
       "context": {
         "fr": "Projet utile né d'un besoin local concret. Un bon terrain pour pratiquer la collecte de données, la robustesse d'un service qui tourne en continu et la mise à disposition d'une interface simple et gratuite.",
@@ -503,7 +503,7 @@
     "viewGithub": { "fr": "Voir GitHub", "en": "View GitHub" },
     "repo": { "fr": "Code source", "en": "Source code" },
     "otherProjects": { "fr": "Autres projets", "en": "More projects" },
-    "demo": { "fr": "Démo", "en": "Demo" },
+    "demo": { "fr": "Tester l'App", "en": "App test" },
     "context": { "fr": "Mon regard", "en": "My take" },
     "email": { "fr": "Email", "en": "Email" },
     "linkedinProfile": { "fr": "Profil LinkedIn", "en": "LinkedIn profile" },

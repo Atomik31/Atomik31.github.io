@@ -8,8 +8,8 @@
   "profile": {
     "name": "Julien Charlier",
     "title": {
-      "fr": "Cloud Data Engineer | IoT & AI Solutions | Double compétence OT-IT",
-      "en": "Cloud Data Engineer | IoT & AI Solutions | OT-IT Dual Expertise"
+      "fr": "Cloud Data Engineer | Teacher Assistant | IoT & AI Solutions | Double compétence OT-IT",
+      "en": "Cloud Data Engineer | Teacher Assistant | IoT & AI Solutions | OT-IT Dual Expertise"
     },
     "tagline": {
       "fr": "Je relie le terrain industriel à l'intelligence artificielle, de la donnée capteur terrain au déploiement en production de modèles prédictifs.",
@@ -31,7 +31,7 @@
       "role": { "fr": "Teacher Assistant - Freelance", "en": "Teacher Assistant - Freelance" },
       "company": "Jedha",
       "location": { "fr": "Paris / À distance", "en": "Paris / Remote" },
-      "period": { "fr": "Août 2026", "en": "Aug 2026" },
+      "period": { "fr": "Août 2026 - Aujourd'hui", "en": "Aug 2026 - Present" },
       "description": {
         "fr": "Accompagnement des apprenants des bootcamps Data Science & IA : support technique sur les projets, aide au débogage et à la compréhension des concepts (Python, SQL, machine learning, MLOps, Cloud).",
         "en": "Supporting Data Science & AI bootcamp students: technical guidance on projects, debugging help, and concept explanations (Python, SQL, machine learning, MLOps, Cloud)."

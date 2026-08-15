@@ -202,23 +202,23 @@
       }
     },
     {
-      "id": "fraud-detection",
-      "featured": false,
+      "id": "dashboard-parking",
+      "featured": true,
       "title": {
-        "fr": "Détection automatique de fraude bancaire",
-        "en": "Automatic Bank Fraud Detection"
+        "fr": "Dashboard parkings - Aix-en-Provence",
+        "en": "Parking Dashboard - Aix-en-Provence"
       },
       "summary": {
-        "fr": "Système de détection de transactions frauduleuses en temps réel : modèle de régression logistique entraîné sur ~555k transactions, pipeline scikit-learn (feature engineering, scaling, target encoding), orchestration par deux DAGs Airflow (horaire et quotidien) et alertes Slack instantanées.",
-        "en": "Real-time fraudulent transaction detection: logistic regression model trained on ~555k transactions, scikit-learn pipeline (feature engineering, scaling, target encoding), orchestration via two Airflow DAGs (hourly and daily), and instant Slack alerts."
+        "fr": "Tableau de bord web affichant en temps réel la disponibilité des 9 parkings publics Semepa d'Aix-en-Provence : scraping automatisé, traitement Pandas en arrière-plan (threading) et interface Streamlit rafraîchie toutes les 10 minutes.",
+        "en": "Web dashboard showing real-time availability of Aix-en-Provence's 9 Semepa public car parks: automated scraping, background Pandas processing (threading), and a Streamlit interface refreshed every 10 minutes."
       },
-      "stack": ["Python", "scikit-learn", "Airflow", "MLflow", "Great Expectations", "PostgreSQL / Neon", "AWS S3", "Slack"],
-      "repo_url": "https://github.com/Atomik31/Automatic_fraud_detection",
-      "demo_url": null,
+      "stack": ["Python", "Streamlit", "Pandas", "Requests", "Threading"],
+      "repo_url": "https://github.com/Atomik31/Dashboard-parking",
+      "demo_url": "https://parking-aixpress.fr/",
       "image": null,
       "context": {
-        "fr": "L'enjeu : gérer un dataset fortement déséquilibré (0,38 % de fraudes) tout en produisant des alertes fiables en continu et un bilan quotidien automatisé.",
-        "en": "The challenge: handling a highly imbalanced dataset (0.38% fraud) while producing reliable continuous alerts and an automated daily report."
+        "fr": "Projet utile né d'un besoin local concret. Un bon terrain pour pratiquer la collecte de données, la robustesse d'un service qui tourne en continu et la mise à disposition d'une interface simple et gratuite.",
+        "en": "A useful project born from a concrete local need. A good playground to practice data collection, the robustness of an always-on service, and delivering a simple, free interface."
       }
     },
     {
@@ -242,23 +242,23 @@
       }
     },
     {
-      "id": "dashboard-parking",
-      "featured": true,
+      "id": "fraud-detection",
+      "featured": false,
       "title": {
-        "fr": "Dashboard parkings - Aix-en-Provence",
-        "en": "Parking Dashboard - Aix-en-Provence"
+        "fr": "Détection automatique de fraude bancaire",
+        "en": "Automatic Bank Fraud Detection"
       },
       "summary": {
-        "fr": "Tableau de bord web affichant en temps réel la disponibilité des 9 parkings publics Semepa d'Aix-en-Provence : scraping automatisé, traitement Pandas en arrière-plan (threading) et interface Streamlit rafraîchie toutes les 10 minutes.",
-        "en": "Web dashboard showing real-time availability of Aix-en-Provence's 9 Semepa public car parks: automated scraping, background Pandas processing (threading), and a Streamlit interface refreshed every 10 minutes."
+        "fr": "Système de détection de transactions frauduleuses en temps réel : modèle de régression logistique entraîné sur ~555k transactions, pipeline scikit-learn (feature engineering, scaling, target encoding), orchestration par deux DAGs Airflow (horaire et quotidien) et alertes Slack instantanées.",
+        "en": "Real-time fraudulent transaction detection: logistic regression model trained on ~555k transactions, scikit-learn pipeline (feature engineering, scaling, target encoding), orchestration via two Airflow DAGs (hourly and daily), and instant Slack alerts."
       },
-      "stack": ["Python", "Streamlit", "Pandas", "Requests", "Threading"],
-      "repo_url": "https://github.com/Atomik31/Dashboard-parking",
-      "demo_url": "https://parking-aixpress.fr/",
+      "stack": ["Python", "scikit-learn", "Airflow", "MLflow", "Great Expectations", "PostgreSQL / Neon", "AWS S3", "Slack"],
+      "repo_url": "https://github.com/Atomik31/Automatic_fraud_detection",
+      "demo_url": null,
       "image": null,
       "context": {
-        "fr": "Projet utile né d'un besoin local concret. Un bon terrain pour pratiquer la collecte de données, la robustesse d'un service qui tourne en continu et la mise à disposition d'une interface simple et gratuite.",
-        "en": "A useful project born from a concrete local need. A good playground to practice data collection, the robustness of an always-on service, and delivering a simple, free interface."
+        "fr": "L'enjeu : gérer un dataset fortement déséquilibré (0,38 % de fraudes) tout en produisant des alertes fiables en continu et un bilan quotidien automatisé.",
+        "en": "The challenge: handling a highly imbalanced dataset (0.38% fraud) while producing reliable continuous alerts and an automated daily report."
       }
     },
     {
@@ -500,7 +500,7 @@
   },
   "labels": {
     "downloadCv": { "fr": "Télécharger le CV", "en": "Download CV" },
-    "viewGithub": { "fr": "Voir GitHub", "en": "View GitHub" },
+    "viewGithub": { "fr": "Projets GitHub", "en": "GitHub Projects" },
     "repo": { "fr": "Code source", "en": "Source code" },
     "otherProjects": { "fr": "Autres projets", "en": "More projects" },
     "demo": { "fr": "Tester l'App", "en": "App test" },

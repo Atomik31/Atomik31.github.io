@@ -249,8 +249,8 @@
         "en": "Parking Dashboard - Aix-en-Provence"
       },
       "summary": {
-        "fr": "Tableau de bord web affichant en temps réel la disponibilité des 9 parkings publics Semepa d'Aix-en-Provence : scraping automatisé, traitement Pandas en arrière-plan (threading) et interface Streamlit rafraîchie toutes les 30 minutes.",
-        "en": "Web dashboard showing real-time availability of Aix-en-Provence's 9 Semepa public car parks: automated scraping, background Pandas processing (threading), and a Streamlit interface refreshed every 30 minutes."
+        "fr": "Tableau de bord web affichant en temps réel la disponibilité des 9 parkings publics Semepa d'Aix-en-Provence : scraping automatisé, traitement Pandas en arrière-plan (threading) et interface Streamlit rafraîchie toutes les 10 minutes.",
+        "en": "Web dashboard showing real-time availability of Aix-en-Provence's 9 Semepa public car parks: automated scraping, background Pandas processing (threading), and a Streamlit interface refreshed every 10 minutes."
       },
       "stack": ["Python", "Streamlit", "Pandas", "Requests", "Threading"],
       "repo_url": "https://github.com/Atomik31/Dashboard-parking",

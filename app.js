@@ -1,4 +1,5 @@
 const LANG_KEY = "portfolio-lang";
+const CONTACT_FORM_URL = "https://n8n-cwqb.srv1518554.hstgr.cloud/form/32c8ae6f-4029-4c3b-83f0-ea0642556547";
 
 let data = null;
 let lang = localStorage.getItem(LANG_KEY) || "fr";
@@ -39,8 +40,8 @@ function renderNav() {
     { href: "#about", label: t(data.nav.about) },
     { href: "#education", label: t(data.nav.education) },
     { href: "#experience", label: t(data.nav.experience) },
-    { href: "#skills", label: t(data.nav.skills) },
     { href: "#projects", label: t(data.nav.projects) },
+    { href: "#skills", label: t(data.nav.skills) },
     { href: "#contact", label: t(data.nav.contact) },
   ];
 
@@ -72,6 +73,9 @@ function renderHero() {
           </a>
           <a class="btn btn-outline" href="${profile.github}" target="_blank" rel="noopener noreferrer">
             ${t(labels.viewGithub)}
+          </a>
+          <a class="btn btn-outline" href="${CONTACT_FORM_URL}" target="_blank" rel="noopener noreferrer">
+            ${t({ fr: "Me contacter", en: "Contact me" })}
           </a>
         </div>
       </div>
@@ -162,8 +166,8 @@ function renderSkills() {
 }
 
 function renderProjects() {
-  const featured = data.projects.filter((p) => p.featured);
-  const others = data.projects.filter((p) => !p.featured);
+  const featured = data.projects.slice(0, 2);
+  const others = data.projects.slice(2);
   const labels = data.labels;
 
   const cards = featured
@@ -237,6 +241,8 @@ function renderContact() {
     { label: "LinkedIn", value: t(labels.linkedinProfile), href: profile.linkedin },
   ];
 
+  const contactFormLabel = t({ fr: "Envoyer un message", en: "Send a message" });
+
   document.getElementById("contact").innerHTML = `
     <div class="container">
       <h2 class="section-title">${t(data.nav.contact)}</h2>
@@ -252,6 +258,7 @@ function renderContact() {
           )
           .join("")}
       </div>
+      <a class="btn btn-primary contact-form-cta" href="${CONTACT_FORM_URL}" target="_blank" rel="noopener noreferrer">${contactFormLabel}</a>
     </div>
   `;
 }

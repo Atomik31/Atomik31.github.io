@@ -1,5 +1,5 @@
 const LANG_KEY = "portfolio-lang";
-const CONTACT_FORM_URL = "https://n8n-cwqb.srv1518554.hstgr.cloud/form/32c8ae6f-4029-4c3b-83f0-ea0642556547";
+const CONTACT_FORM_URL = "https://form.typeform.com/to/WQPiXRuC";
 
 let data = null;
 let lang = localStorage.getItem(LANG_KEY) || "fr";

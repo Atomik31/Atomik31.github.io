@@ -12,7 +12,7 @@
       "en": "Data Engineer | AI & Cloud Solutions | Teacher Assitant | Dual OT/IT skillset"
     },
     "tagline": {
-      "fr": "Je relie le terrain industriel à l'intelligence artificielle, de la donnée capteur terrain au déploiement en production de modèles prédictifs.",
+      "fr": "Je fais le pont entre le terrain industriel et l'intelligence artificielle, de la donnée capteur terrain au déploiement en production de modèles prédictifs.",
       "en": "I bridge industrial operations and artificial intelligence - from field sensor data to the production deployment of predictive models."
     },
     "photo": "assets/images/photo-pro.jpg",
@@ -22,8 +22,8 @@
     "linkedin": "https://www.linkedin.com/in/julien-charlier-data/"
   },
   "about": {
-    "fr": "Data Engineer, je conçois des solutions d'intelligence artificielle ancrées dans l'IoT et le monde industriel. Façonné par plus de 14 ans de terrain, chef d'entreprise dans les ascenseurs inclinés, l'automatisme, la domotique et l'IoT, expert technique, j'ai acquis une compréhension fine des systèmes physiques, de leurs capteurs et de leurs contraintes réelles. J'ai déjà fait le pont entre le terrain et l'IA en concevant un agent conversationnel (Chatbot) d’aide au diagnostic technique. Ma valeur : une double compétence OT/IT qui me permet de transformer la donnée capteur en modèles prédictifs concrets, de l'edge jusqu'au cloud.",
-    "en": "A Data Engineer, I design artificial intelligence solutions rooted in IoT and the industrial world. Shaped by more than 14 years in the field, as a company director in inclined elevators, automation, home automation and IoT, and as a technical expert, I have gained a deep understanding of physical systems, their sensors, and their real-world constraints. I have already bridged the field and AI by designing a conversational agent (chatbot) for technical fault diagnosis. My edge: an OT/IT dual expertise that lets me turn sensor data into concrete predictive models, from the edge to the cloud."
+    "fr": "Data Engineer, je conçois des solutions d'intelligence artificielle ancrées dans l'IoT et le monde industriel. Façonné par plus de 13 ans de terrain, chef d'entreprise dans les ascenseurs inclinés, l'automatisme, la domotique et l'IoT, expert technique, j'ai acquis une compréhension fine des systèmes physiques, de leurs capteurs et de leurs contraintes réelles. J'ai déjà fait le pont entre le terrain et l'IA en concevant un agent conversationnel (Chatbot) d’aide au diagnostic technique. Ma valeur : une double compétence OT/IT qui me permet de transformer la donnée capteur en modèles prédictifs concrets, de l'edge jusqu'au cloud.",
+    "en": "A Data Engineer, I design artificial intelligence solutions rooted in IoT and the industrial world. Shaped by more than 13 years in the field, as a company director in inclined elevators, automation, home automation and IoT, and as a technical expert, I have gained a deep understanding of physical systems, their sensors, and their real-world constraints. I have already bridged the field and AI by designing a conversational agent (chatbot) for technical fault diagnosis. My edge: an OT/IT dual expertise that lets me turn sensor data into concrete predictive models, from the edge to the cloud."
   },
   "experience": [
     {
@@ -492,8 +492,8 @@
   ],
   "nav": {
     "about": { "fr": "À propos", "en": "About" },
-    "experience": { "fr": "Expérience", "en": "Experience" },
-    "education": { "fr": "Formation", "en": "Education" },
+    "experience": { "fr": "Expériences", "en": "Experience" },
+    "education": { "fr": "Formations", "en": "Education" },
     "skills": { "fr": "Compétences", "en": "Skills" },
     "projects": { "fr": "Projets", "en": "Projects" },
     "contact": { "fr": "Contact", "en": "Contact" }

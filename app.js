@@ -38,10 +38,10 @@ function renderNav() {
   const nav = document.getElementById("nav");
   const links = [
     { href: "#about", label: t(data.nav.about) },
-    { href: "#education", label: t(data.nav.education) },
-    { href: "#experience", label: t(data.nav.experience) },
     { href: "#projects", label: t(data.nav.projects) },
     { href: "#skills", label: t(data.nav.skills) },
+    { href: "#education", label: t(data.nav.education) },
+    { href: "#experience", label: t(data.nav.experience) },
     { href: "#contact", label: t(data.nav.contact) },
   ];
 
@@ -68,14 +68,14 @@ function renderHero() {
         <p class="hero-role">${t(profile.title)}</p>
         <p class="hero-tagline">${t(profile.tagline)}</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="${profile.cv}" download>
-            ${t(labels.downloadCv)}
+          <a class="btn btn-primary" href="${CONTACT_FORM_URL}" target="_blank" rel="noopener noreferrer">
+            ${t({ fr: "Me contacter", en: "Contact me" })}
           </a>
           <a class="btn btn-outline" href="${profile.github}" target="_blank" rel="noopener noreferrer">
             ${t(labels.viewGithub)}
           </a>
-          <a class="btn btn-outline" href="${CONTACT_FORM_URL}" target="_blank" rel="noopener noreferrer">
-            ${t({ fr: "Me contacter", en: "Contact me" })}
+          <a class="btn btn-outline" href="${profile.cv}" download>
+            ${t(labels.downloadCv)}
           </a>
         </div>
       </div>

@@ -1,6 +1,24 @@
 const LANG_KEY = "portfolio-lang";
 const CONTACT_FORM_URL = "https://form.typeform.com/to/WQPiXRuC";
 
+const PROJECT_LOGOS = {
+  "walmart-sales": "assets/images/logos/walmart.svg",
+  "uber-pickups": "assets/images/logos/uber.svg",
+  "kayak-trip": "assets/images/logos/kayak.svg",
+  "att-spam": "assets/images/logos/atandt.svg",
+  "tinder-eda": "assets/images/logos/tinder.svg",
+  "steam-market": "assets/images/logos/steam.svg",
+  "north-face": "assets/images/logos/thenorthface.svg",
+  "spotify-governance": "assets/images/logos/spotify.svg",
+  getaround: "assets/images/logos/getaround.png",
+  "stripe-architecture": "assets/images/logos/stripe.svg",
+  "local-airflow": "assets/images/logos/airflow.svg",
+  "fraud-detection": "assets/images/logos/fraud-detection.png",
+  "rtsp-yolo": "assets/images/logos/yolo.png",
+  "conversion-rate": "assets/images/logos/data-science-weekly.png",
+  "windscan-predictive": "assets/images/logos/windscan.png",
+};
+
 let data = null;
 let lang = localStorage.getItem(LANG_KEY) || "fr";
 
@@ -201,8 +219,34 @@ function renderProjects() {
     .join("");
 
   const otherCards = others
-    .map(
-      (project) => `
+    .map((project) => {
+      const logo = PROJECT_LOGOS[project.id];
+      if (logo) {
+        const shortTitle = t(project.title).replace(/^[^-]+-\s*/, "");
+        return `
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img class="flip-card-logo" src="${logo}" alt="${t(project.title)}" />
+                <h3>${shortTitle}</h3>
+                <span class="flip-card-hint">${t({ fr: "Cliquer pour voir le détail", en: "Click for details" })}</span>
+              </div>
+              <div class="flip-card-back">
+                <h3>${t(project.title)}</h3>
+                <p class="project-summary">${t(project.summary)}</p>
+                <div class="project-stack">
+                  ${project.stack.map((tech) => `<span>${tech}</span>`).join("")}
+                </div>
+                <div class="project-links">
+                  <a href="${project.repo_url}" target="_blank" rel="noopener noreferrer">${t(labels.repo)}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+
+      return `
         <article class="project-card project-card-compact">
           <h3>${t(project.title)}</h3>
           <p class="project-summary">${t(project.summary)}</p>
@@ -213,8 +257,8 @@ function renderProjects() {
             <a href="${project.repo_url}" target="_blank" rel="noopener noreferrer">${t(labels.repo)}</a>
           </div>
         </article>
-      `
-    )
+      `;
+    })
     .join("");
 
   const othersBlock = others.length
@@ -229,6 +273,10 @@ function renderProjects() {
       ${othersBlock}
     </div>
   `;
+
+  document.querySelectorAll(".flip-card").forEach((card) => {
+    card.addEventListener("click", () => card.classList.toggle("flipped"));
+  });
 }
 
 function renderContact() {

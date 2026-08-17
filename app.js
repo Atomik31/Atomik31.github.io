@@ -60,11 +60,15 @@ function renderNav() {
     { href: "#skills", label: t(data.nav.skills) },
     { href: "#education", label: t(data.nav.education) },
     { href: "#experience", label: t(data.nav.experience) },
-    { href: "#contact", label: t(data.nav.contact) },
+    { href: CONTACT_FORM_URL, label: t(data.nav.contact), external: true },
   ];
 
   nav.innerHTML = links
-    .map(({ href, label }) => `<a href="${href}">${label}</a>`)
+    .map(({ href, label, external }) =>
+      external
+        ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${label}</a>`
+        : `<a href="${href}">${label}</a>`
+    )
     .join("");
 }
 
@@ -73,14 +77,16 @@ function renderHero() {
   const labels = data.labels;
 
   document.getElementById("hero").innerHTML = `
-    <div class="container hero-inner">
-      <img
-        class="hero-photo"
-        src="${profile.photo}"
-        alt="${profile.name}"
-        width="140"
-        height="140"
-      />
+    <div class="container hero-inner hero-text-panel">
+      <div class="hero-photo-frame">
+        <img
+          class="hero-photo"
+          src="${profile.photo}"
+          alt="${profile.name}"
+          width="140"
+          height="140"
+        />
+      </div>
       <div>
         <h1 class="hero-title">${profile.name}</h1>
         <p class="hero-role">${t(profile.title)}</p>
@@ -92,8 +98,8 @@ function renderHero() {
           <a class="btn btn-outline" href="${profile.github}" target="_blank" rel="noopener noreferrer">
             ${t(labels.viewGithub)}
           </a>
-          <a class="btn btn-outline" href="${profile.cv}" download>
-            ${t(labels.downloadCv)}
+          <a class="btn btn-outline" href="https://www.linkedin.com/in/julien-charlier-data/" target="_blank" rel="noopener noreferrer">
+            LinkedIn
           </a>
         </div>
       </div>
@@ -279,38 +285,6 @@ function renderProjects() {
   });
 }
 
-function renderContact() {
-  const { profile } = data;
-  const labels = data.labels;
-
-  const items = [
-    { label: t(labels.email), value: profile.email, href: `mailto:${profile.email}` },
-    { label: "GitHub", value: "Atomik31", href: profile.github },
-    { label: "LinkedIn", value: t(labels.linkedinProfile), href: profile.linkedin },
-  ];
-
-  const contactFormLabel = t({ fr: "Envoyer un message", en: "Send a message" });
-
-  document.getElementById("contact").innerHTML = `
-    <div class="container">
-      <h2 class="section-title">${t(data.nav.contact)}</h2>
-      <div class="contact-list">
-        ${items
-          .map(
-            ({ label, value, href }) => `
-          <div class="contact-item">
-            <span class="contact-label">${label}</span>
-            <a href="${href}" target="_blank" rel="noopener noreferrer">${value}</a>
-          </div>
-        `
-          )
-          .join("")}
-      </div>
-      <a class="btn btn-primary contact-form-cta" href="${CONTACT_FORM_URL}" target="_blank" rel="noopener noreferrer">${contactFormLabel}</a>
-    </div>
-  `;
-}
-
 function renderFooter() {
   const year = new Date().getFullYear();
   document.getElementById("footer").innerHTML = `
@@ -322,7 +296,7 @@ function renderFooter() {
 
 function render() {
   document.title = t(data.meta.siteTitle);
-  document.getElementById("nav-name").textContent = data.profile.name;
+  document.getElementById("nav-name").textContent = "Codaix";
   renderNav();
   renderHero();
   renderAbout();
@@ -330,7 +304,6 @@ function render() {
   renderExperience();
   renderSkills();
   renderProjects();
-  renderContact();
   renderFooter();
 }
 
@@ -351,6 +324,11 @@ async function init() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     data = await response.json();
     render();
+
+    if (window.location.hash) {
+      const target = document.querySelector(window.location.hash);
+      if (target) target.scrollIntoView();
+    }
   } catch (err) {
     const detail = err?.message ? ` (${err.message})` : "";
     showError(

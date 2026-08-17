@@ -28,75 +28,75 @@
   "experience": [
     {
       "id": "jedha-ta",
-      "role": { "fr": "Teacher Assistant - Freelance", "en": "Teacher Assistant - Freelance" },
+      "role": { "fr": "Teacher Assistant - Data science & AI stack", "en": "Teacher Assistant - Data Science & AI Stack" },
       "company": "Jedha",
-      "location": { "fr": "Paris / À distance", "en": "Paris / Remote" },
-      "period": { "fr": "Août 2026 - Aujourd'hui", "en": "Aug 2026 - Present" },
+      "location": { "fr": "Paris (à distance)", "en": "Paris (Remote)" },
+      "period": { "fr": "Août 2026 à aujourd'hui", "en": "Aug 2026 - Present" },
       "description": {
-        "fr": "Accompagnement des apprenants des bootcamps Data Science & IA : support technique sur les projets, aide au débogage et à la compréhension des concepts (Python, SQL, machine learning, MLOps, Cloud).",
-        "en": "Supporting Data Science & AI bootcamp students: technical guidance on projects, debugging help, and concept explanations (Python, SQL, machine learning, MLOps, Cloud)."
+        "fr": "Accompagnement des apprenants dans l'acquisition de compétence en Data Science, analyse de données & IA (Python, SQL, machine learning, MLOps, Cloud, AWS).",
+        "en": "Supporting learners in acquiring skills in Data Science, data analysis & AI (Python, SQL, machine learning, MLOps, Cloud, AWS)."
       },
-      "stack": ["Python", "SQL", "Linux/bash", "Machine Learning", "MLOps", "Pédagogie", "Cloud"]
+      "stack": ["Python", "SQL", "Machine Learning", "MLOps", "Cloud", "AWS"]
     },
     {
       "id": "gendarme",
-      "role": { "fr": "Gendarme de réserve", "en": "Reserve Gendarme" },
+      "role": { "fr": "Gendarme de réserve – Analyste opérationnel CORG", "en": "Reserve Gendarme – CORG Operational Analyst" },
       "company": "Gendarmerie Nationale",
       "location": { "fr": "Marseille", "en": "Marseille" },
-      "period": { "fr": "Novembre 2016 – aujourd'hui", "en": "Nov 2016 – Present" },
+      "period": { "fr": "Novembre 2016 à aujourd'hui", "en": "Nov 2016 - Present" },
       "description": {
-        "fr": "Traitement de l'information au sein du Centre d'Opérations et de Renseignement de la Gendarmerie (CORG) : analyse de données, veille et renseignement.",
-        "en": "Information processing at the Gendarmerie's Operations and Intelligence Center (CORG): data analysis, monitoring, and intelligence gathering."
+        "fr": "Traitement de l'information au sein du Centre d'Opérations et de Renseignement de la Gendarmerie (CORG) : analyse de données, veille et renseignement, gestion de crise.",
+        "en": "Information processing at the Gendarmerie's Operations and Intelligence Center (CORG): data analysis, monitoring, intelligence gathering, and crisis management."
       },
       "stack": ["Gestion de crise", "Rigueur", "Discernement", "Analyse de données"]
     },
     {
       "id": "actemis",
-      "role": { "fr": "Technicien support SAV - Expert Toyota", "en": "After-Sales Support Technician - Toyota Expert" },
+      "role": { "fr": "Expert technique - Développeur de solutions IA", "en": "Technical Expert - AI Solutions Developer" },
       "company": "Actemis",
       "location": { "fr": "Vitrolles (13)", "en": "Vitrolles, France" },
-      "period": { "fr": "Mars 2022 – Juillet 2026", "en": "Mar 2022 – Jul 2026" },
+      "period": { "fr": "Mars 2022 - Juillet 2026", "en": "Mar 2022 - Jul 2026" },
       "description": {
-        "fr": "Optimisation des process de dépannage et création d'un agent conversationnel (Chatbot) d'aide au diagnostic technique, sous forme de RAG à l'aide de N8N. Gestion à distance des pannes, formation technique interne et client, relation commerciale.",
-        "en": "Optimization of troubleshooting processes and creation of a fault-diagnosis chatbot, built as a RAG system with N8N. Remote fault management, internal and customer technical training, and commercial relations."
+        "fr": "Développement d'un agent conversationnel (Chatbot) d'aide au diagnostic technique sous forme de RAG à l'aide de N8N pour réduire le temps de résolution d'incidents. Optimisation des process de dépannage et maintenance, Référent et formateur technique, équipe et client.",
+        "en": "Development of a fault-diagnosis chatbot, built as a RAG system with N8N to reduce incident resolution time. Optimization of troubleshooting and maintenance processes, technical referent and trainer for the team and clients."
       },
-      "stack": ["Chatbot", "Formation", "Support technique", "Relation client"]
+      "stack": ["Chatbot", "RAG", "N8N", "Formation", "Support technique"]
     },
     {
       "id": "toyota-mh",
-      "role": { "fr": "Technicien support client SAV", "en": "Customer After-Sales Support Technician" },
+      "role": { "fr": "Analyste support technique (N1/N2)", "en": "Technical Support Analyst (L1/L2)" },
       "company": "Toyota Material Handling",
       "location": { "fr": "Haute-Savoie (74)", "en": "Haute-Savoie, France" },
-      "period": { "fr": "Octobre 2019 – Mars 2022", "en": "Oct 2019 – Mar 2022" },
+      "period": { "fr": "Octobre 2019 - Mars 2022", "en": "Oct 2019 - Mar 2022" },
       "description": {
-        "fr": "Gestion d'un parc de chariots élévateurs : maintenance, devis, facturation et relation client. Participation aux challenges de vente.",
-        "en": "Management of a forklift fleet: maintenance, quotes, invoicing, and customer relations. Participation in sales challenges."
+        "fr": "Exploitation des historiques de pannes et de la télémétrie pour identifier l'origine exacte des défaillances.",
+        "en": "Analysis of failure histories and telemetry data to identify the exact root cause of malfunctions."
       },
       "stack": []
     },
     {
       "id": "techni-steel",
-      "role": { "fr": "Expert technique - Ascenseur incliné & automatisme", "en": "Technical Expert - Inclined Elevators & Automation" },
+      "role": { "fr": "Expert technique – Systèmes automatisés & IoT", "en": "Technical Expert – Automated Systems & IoT" },
       "company": "Techni-steel",
       "location": { "fr": "Nice (06)", "en": "Nice, France" },
-      "period": { "fr": "Février 2018 – Septembre 2019", "en": "Feb 2018 – Sep 2019" },
+      "period": { "fr": "Février 2018 - Septembre 2019", "en": "Feb 2018 - Sep 2019" },
       "description": {
-        "fr": "Gestion de projets d'ascenseur incliné, mise en place de solutions techniques et collaboration avec le bureau R&D, gestion des données du parc d'ascenseurs.",
-        "en": "Management of inclined elevator projects, implementation of technical solutions, collaboration with the R&D office, and management of the elevator fleet data."
+        "fr": "Etude et réalisation de projets d'ascenseurs inclinés, mise en place de solutions IoT, automatisation de ticket d'incident.",
+        "en": "Design and delivery of inclined elevator projects, implementation of IoT solutions, and incident ticket automation."
       },
-      "stack": ["Gestion de projet", "Automatisme", "R&D", "IoT"]
+      "stack": ["IoT", "Automatisme", "Ascenseurs inclinés"]
     },
     {
       "id": "azurea",
-      "role": { "fr": "Chef d'entreprise", "en": "Company Director" },
-      "company": "Azurea Group",
+      "role": { "fr": "CTO & Fondateur – Solution technique IoT", "en": "CTO & Founder – IoT Technical Solution" },
+      "company": "Azurea group",
       "location": { "fr": "Biot (06)", "en": "Biot, France" },
-      "period": { "fr": "Novembre 2015 – Janvier 2018", "en": "Nov 2015 – Jan 2018" },
+      "period": { "fr": "Novembre 2015 - Janvier 2018", "en": "Nov 2015 - Jan 2018" },
       "description": {
-        "fr": "Développement du chiffre d'affaires : 130K€ la 2ᵉ année, 500K€ la 3ᵉ année, embauche et gestion de 4 salariés. Gestion de projets d'ascenseur incliné en France et à l'étranger, expertise technique, domotique, IoT et automatismes.",
-        "en": "Revenue growth: €130K in year two, €500K in year three, with recruitment and management of 4 employees. Management of inclined elevator projects in France and abroad, technical expertise, home automation, IoT, and automation systems."
+        "fr": "Gestion de projets d'intégration IoT et automatismes complexes (France & International). Déploiement technique et management d'une équipe de 4 collaborateurs.",
+        "en": "Management of complex IoT integration and automation projects (France & International). Technical deployment and management of a team of 4 employees."
       },
-      "stack": ["Gestion de projet", "Domotique", "IoT", "Automatismes"]
+      "stack": ["Gestion de projet", "IoT", "Automatismes", "Management"]
     }
   ],
   "education": [

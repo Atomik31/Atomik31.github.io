@@ -58,91 +58,6 @@
       to { transform: rotate(360deg); }
     }
 
-    /* ─── Nav ─── */
-    .nav-bar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 1.5rem 6vw 0;
-    }
-
-    .nav-logo {
-      color: #ffffff;
-      font-weight: 700;
-      font-size: 1.05rem;
-      text-decoration: none;
-      letter-spacing: 0.01em;
-    }
-
-    .nav-links {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-    }
-
-    .nav-links a {
-      color: rgba(255, 255, 255, 0.85);
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 500;
-      letter-spacing: 0.02em;
-      transition: color 0.15s ease;
-    }
-
-    .nav-links a:hover {
-      color: #ffffff;
-    }
-
-    .nav-toggle {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      background: none;
-      border: none;
-      cursor: pointer;
-      padding: 0.4rem;
-    }
-
-    .nav-toggle span {
-      width: 22px;
-      height: 2px;
-      background: #ffffff;
-      display: block;
-    }
-
-    @media (max-width: 720px) {
-      .nav-links {
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100vh;
-        width: min(260px, 70vw);
-        background: rgba(6, 9, 16, 0.97);
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 1.75rem;
-        padding: 2rem 2rem;
-        transform: translateX(100%);
-        transition: transform 0.25s ease;
-      }
-
-      .nav-links.open {
-        transform: translateX(0);
-      }
-
-      .nav-toggle {
-        display: flex;
-      }
-    }
-
     /* ─── Hero ─── */
     .hero {
       position: relative;
@@ -165,10 +80,9 @@
       inset: 0;
       background: linear-gradient(
         90deg,
-        rgba(6, 9, 16, 0.88) 0%,
-        rgba(6, 9, 16, 0.72) 32%,
-        rgba(6, 9, 16, 0.35) 60%,
-        rgba(6, 9, 16, 0.08) 100%
+        rgba(6, 9, 16, 0.45) 0%,
+        rgba(6, 9, 16, 0.22) 40%,
+        rgba(6, 9, 16, 0.05) 70%
       );
     }
 
@@ -195,6 +109,7 @@
       line-height: 1.15;
       letter-spacing: 0.01em;
       text-transform: uppercase;
+      text-shadow: 0 2px 18px rgba(0, 0, 0, 0.65), 0 1px 4px rgba(0, 0, 0, 0.8);
     }
 
     .hero-role {
@@ -203,15 +118,17 @@
       font-size: clamp(1.4rem, 2.6vw, 1.9rem);
       font-weight: 600;
       line-height: 1.3;
+      text-shadow: 0 2px 18px rgba(0, 0, 0, 0.65), 0 1px 4px rgba(0, 0, 0, 0.8);
     }
 
     .hero-tagline {
       margin: 0 0 2.25rem;
-      color: rgba(255, 255, 255, 0.82);
+      color: rgba(255, 255, 255, 0.92);
       font-size: clamp(1rem, 1.3vw, 1.15rem);
       line-height: 1.6;
       font-weight: 400;
       max-width: 520px;
+      text-shadow: 0 2px 14px rgba(0, 0, 0, 0.7), 0 1px 3px rgba(0, 0, 0, 0.85);
     }
 
     .hero-cta {
@@ -261,21 +178,6 @@
     <div class="spinner"></div>
   </div>
 
-  <header class="nav-bar">
-    <a class="nav-logo" href="index.html">Codaix</a>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="nav-links" id="nav-links">
-      <a href="portfolio.html#about">About</a>
-      <a href="portfolio.html#projects">Projects</a>
-      <a href="portfolio.html#skills">Skills</a>
-      <a href="portfolio.html#education">Education</a>
-      <a href="portfolio.html#experience">Experience</a>
-      <a href="https://form.typeform.com/to/WQPiXRuC" target="_blank" rel="noopener noreferrer">Contact</a>
-    </nav>
-  </header>
-
   <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-overlay"></div>
@@ -296,10 +198,6 @@
   <script>
     window.addEventListener('load', () => {
       document.getElementById('loader').classList.add('hidden');
-    });
-
-    document.getElementById('nav-toggle').addEventListener('click', () => {
-      document.getElementById('nav-links').classList.toggle('open');
     });
   </script>
 </body>

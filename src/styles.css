@@ -194,7 +194,6 @@ a { text-decoration: none; }
 .proj .tags { margin-top: auto; }
 
 /* ---------- Contact ---------- */
-.contact-text { max-width: 60ch; color: rgba(255,255,255,.85); margin-bottom: 18px; }
 .contact-grid { display: grid; gap: 10px; }
 @media (min-width: 700px) { .contact-grid { grid-template-columns: repeat(3, 1fr); } }
 .contact-grid > li { animation: rise .45s calc(var(--i) * 60ms) both; }

@@ -8,7 +8,6 @@ export default function ContactSection({ profile, t }) {
   ]
   return (
     <>
-      <p className="contact-text">{t.contactText}</p>
       <ul className="contact-grid">
         {rows.map((r, i) => (
           <li key={r.label} style={{ '--i': i }}>

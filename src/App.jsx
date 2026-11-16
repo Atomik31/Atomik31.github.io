@@ -17,7 +17,6 @@ const UI = {
   fr: {
     role: "Ingénierie & Solutions d'IA en Production",
     contactCta: 'Me contacter',
-    contactText: "Une mission, un projet IoT / IA, une question sur l'un de mes projets : écris-moi, je réponds vite.",
     about: 'À propos',
     journey: 'Parcours',
     experience: 'Expérience',
@@ -41,7 +40,6 @@ const UI = {
   en: {
     role: 'Engineering & AI Solutions in Production',
     contactCta: 'Get in touch',
-    contactText: 'A contract, an IoT / AI project, a question about one of my projects: drop me a line, I reply fast.',
     about: 'About',
     journey: 'Journey',
     experience: 'Experience',

@@ -15,7 +15,7 @@ const TEXT = {
     messagePh: 'Décrivez votre besoin en quelques lignes',
     send: 'Envoyer',
     sending: 'Envoi…',
-    sent: 'Merci, votre message est bien parti. Je vous réponds rapidement.',
+    sent: 'Merci, votre message est bien parti. Je reviens vers vous rapidement.',
     error: "L'envoi a échoué. Réessayez ou écrivez directement à",
   },
   en: {

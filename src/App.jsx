@@ -4,8 +4,6 @@ import Splash from './components/Splash.jsx'
 import Nav from './components/Nav.jsx'
 import Hero from './components/Hero.jsx'
 import Section from './components/Section.jsx'
-import Timeline from './components/Timeline.jsx'
-import Skills from './components/Skills.jsx'
 import Projects from './components/Projects.jsx'
 import ContactSection from './components/ContactSection.jsx'
 import Sheet from './components/Sheet.jsx'
@@ -18,10 +16,6 @@ const UI = {
     role: "Ingénierie & Solutions d'IA en Production",
     contactCta: 'Me contacter',
     about: 'À propos',
-    journey: 'Parcours',
-    experience: 'Expérience',
-    education: 'Formation',
-    skills: 'Compétences',
     projects: 'Projets',
     contact: 'Contact',
     profile: 'Profil',
@@ -41,10 +35,6 @@ const UI = {
     role: 'Engineering & AI Solutions in Production',
     contactCta: 'Get in touch',
     about: 'About',
-    journey: 'Journey',
-    experience: 'Experience',
-    education: 'Education',
-    skills: 'Skills',
     projects: 'Projects',
     contact: 'Contact',
     profile: 'Profile',
@@ -62,15 +52,13 @@ const UI = {
   },
 }
 
-// Ordre de la page : Projets, Expérience, Formation, Compétences. « Parcours » regroupe Expérience et Formation dans la navigation.
+// Ordre de la page : Profil, Projets, Contact.
 const SECTIONS = [
   { id: 'profile', icon: 'user' },
   { id: 'projects', icon: 'layers' },
-  { id: 'experience', icon: 'briefcase' },
-  { id: 'skills', icon: 'chip' },
   { id: 'contact', icon: 'mail' },
 ]
-const OBSERVED = ['profile', 'projects', 'experience', 'education', 'skills', 'contact']
+const OBSERVED = ['profile', 'projects', 'contact']
 
 export default function App() {
   const [lang, setLang] = useState(() => {
@@ -85,7 +73,7 @@ export default function App() {
   const [open, setOpen] = useState(null) // projet ouvert dans la feuille
 
   const t = { ...UI[lang], ...Object.fromEntries(Object.entries(data.labels).map(([k, v]) => [k, v[lang]])) }
-  const nav = SECTIONS.map((s) => ({ ...s, label: t[s.id === 'experience' ? 'journey' : s.id] }))
+  const nav = SECTIONS.map((s) => ({ ...s, label: t[s.id] }))
 
   const changeLang = (l) => {
     setLang(l)
@@ -108,7 +96,7 @@ export default function App() {
     const io = new IntersectionObserver(
       (entries) => {
         const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0]
-        if (visible) setActive(visible.target.id === 'education' ? 'experience' : visible.target.id)
+        if (visible) setActive(visible.target.id)
       },
       { rootMargin: '-35% 0px -55% 0px', threshold: [0, 0.1, 0.5] },
     )
@@ -146,20 +134,8 @@ export default function App() {
           <Projects projects={data.projects} filter={filter} onFilter={setFilter} lang={lang} t={t} onOpen={setOpen} />
         </Section>
 
-        <Section id="experience" title={t.experience} count={data.experience.length}>
-          <Timeline entries={data.experience} kind="experience" lang={lang} t={t} />
-        </Section>
-
-        <Section id="education" title={t.education} count={data.education.length}>
-          <Timeline entries={data.education} kind="education" lang={lang} t={t} />
-        </Section>
-
-        <Section id="skills" title={t.skills}>
-          <Skills skills={data.skills} lang={lang} />
-        </Section>
-
         <Section id="contact" title={t.contact}>
-          <ContactSection profile={data.profile} t={t} />
+          <ContactSection profile={data.profile} t={t} lang={lang} />
         </Section>
 
         <footer className="foot muted">

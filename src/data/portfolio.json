@@ -420,6 +420,64 @@
       }
     },
     {
+      "id": "track-fpv",
+      "featured": true,
+      "title": {
+        "fr": "Track FPV - le Strava des drones FPV",
+        "en": "Track FPV - Strava for FPV drones"
+      },
+      "summary": {
+        "fr": "Application web pour pilotes de drones FPV : import des logs EdgeTX, replay de chaque vol sur carte (tension, courant, vitesse, liaison radio, zones de vol), télémétrie en direct par USB ou Wi-Fi avec alertes de zones interdites, carnet de vol par drone et réseau social (fil, amis, messagerie).",
+        "en": "Web app for FPV drone pilots: EdgeTX log import, point-by-point flight replay on a map (voltage, current, speed, radio link, flight zones), live USB or Wi-Fi telemetry with restricted-zone alerts, per-drone logbook and a social network (feed, friends, messaging)."
+      },
+      "stack": [
+        "React",
+        "JavaScript",
+        "Leaflet",
+        "Firebase",
+        "AWS S3",
+        "AWS Lambda",
+        "Web Serial",
+        "WebCodecs"
+      ],
+      "repo_url": "https://github.com/Atomik31/track-fpv",
+      "demo_url": "https://track-fpv.vercel.app",
+      "image": "./assets/track-fpv-app.jpg",
+      "context": {
+        "fr": "Un produit complet né de ma passion pour le FPV : décodage des trames CRSF de la radio dans le navigateur, relais local pour la télémétrie Wi-Fi et la vidéo des DJI Goggles 3, et une vraie communauté de pilotes autour des vols partagés.",
+        "en": "A full product born from my passion for FPV: in-browser decoding of the radio's CRSF frames, a local relay for Wi-Fi telemetry and DJI Goggles 3 video, and a real pilot community around shared flights."
+      }
+    },
+    {
+      "id": "snapnote",
+      "featured": true,
+      "title": {
+        "fr": "SnapNote - Notes de frais lues par l'IA",
+        "en": "SnapNote - AI-read expense reports"
+      },
+      "summary": {
+        "fr": "Application de notes de frais : on photographie un ticket de caisse, une IA lit les montants, la note est enregistrée dans Supabase et le comptable la reçoit par e-mail via un workflow n8n. Accompagnée d'un guide pas à pas pour la construire avec Claude Code.",
+        "en": "Expense report app: snap a receipt, an AI reads the amounts, the note is stored in Supabase and the accountant receives it by email through an n8n workflow. Comes with a step-by-step guide to build it with Claude Code."
+      },
+      "stack": [
+        "React",
+        "Vite",
+        "Supabase",
+        "PostgreSQL",
+        "IA générative",
+        "n8n",
+        "Vercel",
+        "Claude Code"
+      ],
+      "repo_url": "https://github.com/Atomik31/snapnote",
+      "demo_url": "https://snapnote-one.vercel.app",
+      "image": "./assets/snapnote-app.jpg",
+      "context": {
+        "fr": "Une démo de « product builder » assisté par IA : de la branche Git à la mise en ligne, avec CI, aperçus Vercel et une brique à la fois (connexion, base de données, lecture IA, envoi au comptable). Guide : snapnote-guide.vercel.app.",
+        "en": "An AI-assisted product builder demo: from Git branch to production, with CI, Vercel previews and one building block at a time (sign-in, database, AI reading, sending to the accountant). Guide: snapnote-guide.vercel.app."
+      }
+    },
+    {
       "id": "maintenance-eoliennes",
       "featured": true,
       "title": {
@@ -503,64 +561,6 @@
       "context": {
         "fr": "Projet personnel à la croisée de mon passé terrain (vidéosurveillance, courants faibles) et de la vision par ordinateur. J'ai dépassé le buffering standard d'OpenCV pour garantir un affichage réellement temps réel.",
         "en": "A personal project at the crossroads of my field background (CCTV, low-voltage systems) and computer vision. I went beyond OpenCV's standard buffering to ensure a truly real-time display."
-      }
-    },
-    {
-      "id": "track-fpv",
-      "featured": true,
-      "title": {
-        "fr": "Track FPV - le Strava des drones FPV",
-        "en": "Track FPV - Strava for FPV drones"
-      },
-      "summary": {
-        "fr": "Application web pour pilotes de drones FPV : import des logs EdgeTX, replay de chaque vol sur carte (tension, courant, vitesse, liaison radio, zones de vol), télémétrie en direct par USB ou Wi-Fi avec alertes de zones interdites, carnet de vol par drone et réseau social (fil, amis, messagerie).",
-        "en": "Web app for FPV drone pilots: EdgeTX log import, point-by-point flight replay on a map (voltage, current, speed, radio link, flight zones), live USB or Wi-Fi telemetry with restricted-zone alerts, per-drone logbook and a social network (feed, friends, messaging)."
-      },
-      "stack": [
-        "React",
-        "JavaScript",
-        "Leaflet",
-        "Firebase",
-        "AWS S3",
-        "AWS Lambda",
-        "Web Serial",
-        "WebCodecs"
-      ],
-      "repo_url": "https://github.com/Atomik31/track-fpv",
-      "demo_url": "https://track-fpv.vercel.app",
-      "image": null,
-      "context": {
-        "fr": "Un produit complet né de ma passion pour le FPV : décodage des trames CRSF de la radio dans le navigateur, relais local pour la télémétrie Wi-Fi et la vidéo des DJI Goggles 3, et une vraie communauté de pilotes autour des vols partagés.",
-        "en": "A full product born from my passion for FPV: in-browser decoding of the radio's CRSF frames, a local relay for Wi-Fi telemetry and DJI Goggles 3 video, and a real pilot community around shared flights."
-      }
-    },
-    {
-      "id": "snapnote",
-      "featured": true,
-      "title": {
-        "fr": "SnapNote - Notes de frais lues par l'IA",
-        "en": "SnapNote - AI-read expense reports"
-      },
-      "summary": {
-        "fr": "Application de notes de frais : on photographie un ticket de caisse, une IA lit les montants, la note est enregistrée dans Supabase et le comptable la reçoit par e-mail via un workflow n8n. Accompagnée d'un guide pas à pas pour la construire avec Claude Code.",
-        "en": "Expense report app: snap a receipt, an AI reads the amounts, the note is stored in Supabase and the accountant receives it by email through an n8n workflow. Comes with a step-by-step guide to build it with Claude Code."
-      },
-      "stack": [
-        "React",
-        "Vite",
-        "Supabase",
-        "PostgreSQL",
-        "IA générative",
-        "n8n",
-        "Vercel",
-        "Claude Code"
-      ],
-      "repo_url": "https://github.com/Atomik31/snapnote",
-      "demo_url": "https://snapnote-one.vercel.app",
-      "image": null,
-      "context": {
-        "fr": "Une démo de « product builder » assisté par IA : de la branche Git à la mise en ligne, avec CI, aperçus Vercel et une brique à la fois (connexion, base de données, lecture IA, envoi au comptable). Guide : snapnote-guide.vercel.app.",
-        "en": "An AI-assisted product builder demo: from Git branch to production, with CI, Vercel previews and one building block at a time (sign-in, database, AI reading, sending to the accountant). Guide: snapnote-guide.vercel.app."
       }
     },
     {

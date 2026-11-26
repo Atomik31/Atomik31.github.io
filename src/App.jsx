@@ -35,7 +35,7 @@ const UI = {
     statProjects: 'projets',
     statTools: 'outils maîtrisés',
     statCerts: 'certifs RNCP',
-    highlights: ['Applications sur mesure', 'IA agentique sur mesure', 'Automatisation (n8n)', 'Du capteur au dashboard et à l\'IA', 'Double compétence OT / IT', 'Certifié AWS Cloud & AI Practitioner'],
+    highlights: ['Applications sur mesure', 'IA agentique sur mesure', 'Automatisation (n8n)', 'Du capteur au dashboard et à l\'IA', 'Double compétence OT / IT', 'Certifié AWS'],
   },
   en: {
     role: 'Engineering & AI Solutions in Production',
@@ -58,7 +58,7 @@ const UI = {
     statProjects: 'projects',
     statTools: 'tools',
     statCerts: 'RNCP certs',
-    highlights: ['Custom applications', 'Custom agentic AI', 'Automation (n8n)', 'From sensor to dashboard and AI', 'OT / IT dual expertise', 'AWS Certified Cloud & AI Practitioner'],
+    highlights: ['Custom applications', 'Custom agentic AI', 'Automation (n8n)', 'From sensor to dashboard and AI', 'OT / IT dual expertise', 'AWS Certified'],
   },
 }
 

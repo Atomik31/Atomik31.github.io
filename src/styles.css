@@ -37,6 +37,7 @@
   --c-ia: #0ea5c6;
   --c-data: #e8782f;
   --c-archi: #14a38b;
+  --c-apps: #7c3aed;
 
   --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --r-xl: 16px;
@@ -61,6 +62,7 @@ a { text-decoration: none; }
 .tone-ia { --tone: var(--c-ia); }
 .tone-data { --tone: var(--c-data); }
 .tone-archi { --tone: var(--c-archi); }
+.tone-apps { --tone: var(--c-apps); }
 
 /* ---------- Boutons ---------- */
 .circle { width: 52px; height: 52px; border: 0; border-radius: 50%; background: var(--sheet-3); color: var(--text); display: grid; place-items: center; flex: none; transition: background .2s, transform .15s; }
@@ -188,6 +190,10 @@ a { text-decoration: none; }
 .plate.has-logo { background: #fff; padding: 12px 18px; }
 .plate img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .plate-lg { height: 96px; }
+.plate.has-shot { height: 140px; background: #0b1020; }
+.plate.has-shot img { object-fit: cover; object-position: center 22%; }
+.plate-lg.has-shot { height: auto; aspect-ratio: 1440 / 1000; }
+.plate-lg.has-shot img { object-position: top; }
 .tile-ico { width: 40px; height: 40px; border-radius: 10px; background: var(--tone); display: grid; place-items: center; color: #fff; flex: none; }
 .proj strong { font-size: 15.5px; font-weight: 600; line-height: 1.3; }
 .proj-sum { font-size: 13.5px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }

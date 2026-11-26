@@ -206,7 +206,7 @@ a { text-decoration: none; }
 .cform > p { margin: 0; }
 .cform-row { display: grid; gap: 14px; }
 @media (min-width: 700px) { .cform-row { grid-template-columns: 1fr 1fr; } }
-.cform label { display: grid; gap: 6px; font-size: 13px; font-weight: 600; }
+.cform label { display: grid; align-content: start; gap: 6px; font-size: 13px; font-weight: 600; }
 .cform input, .cform textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 15px; color: var(--text); background: var(--sheet-2); border: 1px solid var(--line); border-radius: 8px; padding: 11px 12px; transition: border-color .2s; }
 .cform textarea { resize: vertical; min-height: 120px; }
 .cform input::placeholder, .cform textarea::placeholder { color: var(--dim); }
@@ -215,6 +215,9 @@ a { text-decoration: none; }
 .cform .btn:disabled { opacity: .6; cursor: progress; }
 .cform-trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
 .cform-err { margin: 0; color: #f87171; font-size: 14px; }
+.cform label small.cform-err { font-size: 13px; font-weight: 500; }
+.cform label .muted { font-weight: 400; }
+.cform input[aria-invalid="true"] { border-color: #f87171; }
 .cform-err a { color: inherit; text-decoration: underline; }
 .cform-done { display: flex; align-items: center; gap: 10px; background: var(--sheet); border: 1px solid #22c55e; border-radius: var(--r-lg); padding: 20px; margin-bottom: 14px; }
 .cform-done .icon { color: #22c55e; width: 20px; height: 20px; flex: none; }

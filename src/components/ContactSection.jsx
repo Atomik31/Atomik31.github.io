@@ -3,7 +3,6 @@ import ContactForm from './ContactForm.jsx'
 
 export default function ContactSection({ profile, t, lang }) {
   const rows = [
-    { icon: 'mail', label: t.email, value: profile.email, href: `mailto:${profile.email}` },
     { icon: 'linkedin', label: 'LinkedIn', value: t.linkedinProfile, href: profile.linkedin },
     { icon: 'github', label: 'GitHub', value: 'Atomik31', href: profile.github },
   ]

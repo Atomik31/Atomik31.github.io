@@ -1,4 +1,5 @@
 import Icon from './Icons.jsx'
+import LogoMark from './LogoMark.jsx'
 
 // Navigation par sections : barre en haut sur bureau, barre d'onglets en bas sur mobile (comme une app).
 export default function Nav({ items, active, onGo, lang, onLang }) {
@@ -8,9 +9,9 @@ export default function Nav({ items, active, onGo, lang, onLang }) {
         <div className="topbar-in">
           <button className="logo" onClick={() => onGo('profile')} aria-label="Codaix">
             <span className="logo-mark">
-              <Icon name="code" />
+              <LogoMark />
             </span>
-            <span>Codaix</span>
+            <span className="wordmark">cod<em>ai</em>x</span>
           </button>
 
           <nav className="nav-top" aria-label="Sections">

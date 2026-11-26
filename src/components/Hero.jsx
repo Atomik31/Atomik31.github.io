@@ -2,7 +2,7 @@ import { useCountUp } from '../lib/useCountUp.js'
 import Icon from './Icons.jsx'
 
 export default function Hero({ profile, lang, t, stats, onContact }) {
-  const years = Math.round(useCountUp(14, 1200, 1500))
+  const years = Math.round(useCountUp(13, 1200, 1500))
   const [title, ...rest] = profile.title[lang].split('|').map((x) => x.trim())
 
   return (

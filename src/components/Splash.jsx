@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Icon from './Icons.jsx'
+import LogoMark from './LogoMark.jsx'
 
 // Intro jouée une seule fois par chargement de page, ignorée en mouvement réduit.
 let introPlayed = false
@@ -27,9 +27,9 @@ export default function Splash() {
       <div className="splash-in">
         <span className="splash-mark">
           <i />
-          <Icon name="code" />
+          <LogoMark />
         </span>
-        <span className="splash-word">Codaix</span>
+        <span className="splash-word wordmark">cod<em>ai</em>x</span>
         <b className="splash-bar" />
       </div>
     </div>

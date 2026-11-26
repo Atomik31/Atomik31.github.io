@@ -1,6 +1,7 @@
 import Icon from './Icons.jsx'
+import ContactForm from './ContactForm.jsx'
 
-export default function ContactSection({ profile, t }) {
+export default function ContactSection({ profile, t, lang }) {
   const rows = [
     { icon: 'mail', label: t.email, value: profile.email, href: `mailto:${profile.email}` },
     { icon: 'linkedin', label: 'LinkedIn', value: t.linkedinProfile, href: profile.linkedin },
@@ -8,6 +9,7 @@ export default function ContactSection({ profile, t }) {
   ]
   return (
     <>
+      <ContactForm lang={lang} email={profile.email} />
       <ul className="contact-grid">
         {rows.map((r, i) => (
           <li key={r.label} style={{ '--i': i }}>

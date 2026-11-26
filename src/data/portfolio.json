@@ -391,6 +391,35 @@
   ],
   "projects": [
     {
+      "id": "dashboard-parking",
+      "featured": true,
+      "title": {
+        "fr": "App parkings - Aix-en-Provence",
+        "en": "Parking App - Aix-en-Provence"
+      },
+      "summary": {
+        "fr": "Application web affichant en temps réel les places libres des 9 parkings publics d'Aix-en-Provence : vue consolidée, carte interactive colorée selon le remplissage, tendance sur 30 min et historique d'occupation collecté toutes les 10 minutes par AWS Lambda et archivé sur S3.",
+        "en": "Web app showing real-time free spaces in Aix-en-Provence's 9 public car parks: consolidated view, interactive map colour-coded by occupancy, 30-minute trend, and an occupancy history collected every 10 minutes by AWS Lambda and archived on S3."
+      },
+      "stack": [
+        "React",
+        "Express",
+        "Python",
+        "AWS Lambda",
+        "EventBridge",
+        "AWS S3",
+        "Firebase",
+        "Docker"
+      ],
+      "repo_url": "https://github.com/Atomik31/Dashboard-parking",
+      "demo_url": "https://parking-aixpress.fr/",
+      "image": "./assets/parking-app.jpg",
+      "context": {
+        "fr": "Projet utile né d'un besoin local concret. Un bon terrain pour pratiquer la collecte de données, la robustesse d'un service qui tourne en continu et la mise à disposition d'une interface simple et gratuite.",
+        "en": "A useful project born from a concrete local need. A good playground to practice data collection, the robustness of an always-on service, and delivering a simple, free interface."
+      }
+    },
+    {
       "id": "maintenance-eoliennes",
       "featured": true,
       "title": {
@@ -477,29 +506,61 @@
       }
     },
     {
-      "id": "dashboard-parking",
+      "id": "track-fpv",
       "featured": true,
       "title": {
-        "fr": "Dashboard parkings - Aix-en-Provence",
-        "en": "Parking Dashboard - Aix-en-Provence"
+        "fr": "Track FPV - le Strava des drones FPV",
+        "en": "Track FPV - Strava for FPV drones"
       },
       "summary": {
-        "fr": "Tableau de bord web affichant en temps réel la disponibilité des 9 parkings publics Semepa d'Aix-en-Provence : scraping automatisé, traitement Pandas en arrière-plan (threading) et interface Streamlit rafraîchie toutes les 30 minutes.",
-        "en": "Web dashboard showing real-time availability of Aix-en-Provence's 9 Semepa public car parks: automated scraping, background Pandas processing (threading), and a Streamlit interface refreshed every 30 minutes."
+        "fr": "Application web pour pilotes de drones FPV : import des logs EdgeTX, replay de chaque vol sur carte (tension, courant, vitesse, liaison radio, zones de vol), télémétrie en direct par USB ou Wi-Fi avec alertes de zones interdites, carnet de vol par drone et réseau social (fil, amis, messagerie).",
+        "en": "Web app for FPV drone pilots: EdgeTX log import, point-by-point flight replay on a map (voltage, current, speed, radio link, flight zones), live USB or Wi-Fi telemetry with restricted-zone alerts, per-drone logbook and a social network (feed, friends, messaging)."
       },
       "stack": [
-        "Python",
-        "Streamlit",
-        "Pandas",
-        "Requests",
-        "Threading"
+        "React",
+        "JavaScript",
+        "Leaflet",
+        "Firebase",
+        "AWS S3",
+        "AWS Lambda",
+        "Web Serial",
+        "WebCodecs"
       ],
-      "repo_url": "https://github.com/Atomik31/Dashboard-parking",
-      "demo_url": "https://atomik31-dashboard-parking-aix.hf.space/",
+      "repo_url": "https://github.com/Atomik31/track-fpv",
+      "demo_url": "https://track-fpv.vercel.app",
       "image": null,
       "context": {
-        "fr": "Projet utile né d'un besoin local concret. Un bon terrain pour pratiquer la collecte de données, la robustesse d'un service qui tourne en continu et la mise à disposition d'une interface simple et gratuite.",
-        "en": "A useful project born from a concrete local need. A good playground to practice data collection, the robustness of an always-on service, and delivering a simple, free interface."
+        "fr": "Un produit complet né de ma passion pour le FPV : décodage des trames CRSF de la radio dans le navigateur, relais local pour la télémétrie Wi-Fi et la vidéo des DJI Goggles 3, et une vraie communauté de pilotes autour des vols partagés.",
+        "en": "A full product born from my passion for FPV: in-browser decoding of the radio's CRSF frames, a local relay for Wi-Fi telemetry and DJI Goggles 3 video, and a real pilot community around shared flights."
+      }
+    },
+    {
+      "id": "snapnote",
+      "featured": true,
+      "title": {
+        "fr": "SnapNote - Notes de frais lues par l'IA",
+        "en": "SnapNote - AI-read expense reports"
+      },
+      "summary": {
+        "fr": "Application de notes de frais : on photographie un ticket de caisse, une IA lit les montants, la note est enregistrée dans Supabase et le comptable la reçoit par e-mail via un workflow n8n. Accompagnée d'un guide pas à pas pour la construire avec Claude Code.",
+        "en": "Expense report app: snap a receipt, an AI reads the amounts, the note is stored in Supabase and the accountant receives it by email through an n8n workflow. Comes with a step-by-step guide to build it with Claude Code."
+      },
+      "stack": [
+        "React",
+        "Vite",
+        "Supabase",
+        "PostgreSQL",
+        "IA générative",
+        "n8n",
+        "Vercel",
+        "Claude Code"
+      ],
+      "repo_url": "https://github.com/Atomik31/snapnote",
+      "demo_url": "https://snapnote-one.vercel.app",
+      "image": null,
+      "context": {
+        "fr": "Une démo de « product builder » assisté par IA : de la branche Git à la mise en ligne, avec CI, aperçus Vercel et une brique à la fois (connexion, base de données, lecture IA, envoi au comptable). Guide : snapnote-guide.vercel.app.",
+        "en": "An AI-assisted product builder demo: from Git branch to production, with CI, Vercel previews and one building block at a time (sign-in, database, AI reading, sending to the accountant). Guide: snapnote-guide.vercel.app."
       }
     },
     {

@@ -4,6 +4,7 @@ export const GROUPS = [
   { id: 'ia', label: { fr: 'Vision & NLP', en: 'Vision & NLP' }, icon: 'eye' },
   { id: 'data', label: { fr: 'Data science', en: 'Data science' }, icon: 'chart' },
   { id: 'archi', label: { fr: 'Architecture', en: 'Architecture' }, icon: 'cloud' },
+  { id: 'apps', label: { fr: 'Applications web', en: 'Web apps' }, icon: 'globe' },
 ]
 
 const BY_PROJECT = {
@@ -16,6 +17,8 @@ const BY_PROJECT = {
   'north-face': 'ia',
   'spotify-governance': 'archi',
   'stripe-architecture': 'archi',
+  'track-fpv': 'apps',
+  snapnote: 'apps',
 }
 
 export const groupOf = (project) => BY_PROJECT[project.id] ?? 'data'

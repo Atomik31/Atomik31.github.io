@@ -15,6 +15,8 @@ const LOGOS = {
   'rtsp-yolo': 'yolo.png',
   'conversion-rate': 'data-science-weekly.png',
   'windscan-predictive': 'windscan.png',
+  'track-fpv': 'track-fpv.svg',
+  snapnote: 'snapnote.svg',
 }
 
 export const logoOf = (project) => (LOGOS[project.id] ? `./logos/${LOGOS[project.id]}` : null)
